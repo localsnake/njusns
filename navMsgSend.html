@@ -1,0 +1,77 @@
+﻿<script src="scripts/navMsgSend.js" type="text/javascript"></script> 
+<style type="text/css">
+#msgSendWrapper {width:800px; margin-left:50px;}
+.listStyleTable .msgNotes { width:100px;}
+.listStyleTable .msgInput { width:700px;}
+.listStyleTable .msgInput input{
+	width:680px;
+	height:20px;
+	margin-top:auto;
+	margin-bottom:auto;
+	display:inline-block;
+	font-family: "宋体";
+}
+.msgTitleDiv {
+	font-family: Tahoma,"微软雅黑",Times,serif;
+	color:#454545;
+	height: 35px;
+	font-size: 15px;
+	text-align:center;
+	border: 1px solid #909090;
+}
+.msgReceiver{	background-color: #dde3ec;	}
+.msgSubject{	background-color:#dddddd;	}
+.msgButtonDiv{ 
+	margin-top:10px;
+	display:inline-block;
+	margin-left:320px;
+	position:relative;
+}
+
+.button{
+	cursor:pointer;
+	width:66px;
+	height:42px;
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+
+/*.sendBtn:active,.rstBtn:active{ top:1px; }
+.sendBtn{	background: url('images/send.png') no-repeat;	}
+.rstBtn { 	background: url('images/clear.png') no-repeat;	}*/
+
+.newMsgLabel {
+	font-size:18px;
+	color:#2c7db5;
+	font-weight:bold;
+	font-family:"微软雅黑",Times,serif;
+}
+</style>
+<div id="msgSendWrapper"  class="msgModuleDiv">
+	<p class="newMsgLabel">写新信件</p>
+	<div class='seperatorHr'></div>
+	<div>
+		<table class="listStyleTable">
+		<tr class="msgTitleDiv msgReceiver"> 
+			<td class="msgNotes">收件人</td>
+			<td class="msgInput">
+				<input id="userName" type="text"/>
+				<input id="receiverId" type="hidden" name="receiver_id" />
+			</td>
+		</tr>
+		<tr class="msgTitleDiv "> 
+			<td class="msgNotes">标题</td>
+			<td class="msgInput"><input type="text" id="msgTitle" name="title" /></td>
+		</tr>
+		</table>
+		<div id="releaseId"><textarea id="msgContent" name="content"></textarea></div>
+		
+		<div class="msgButtonDiv">
+			<button id="msgSendBtn" class="button">发送</button>
+			<button id="msgRstBtn" class="button">置空</button>
+		</div>
+	</div>
+	<p id="notes" class="errorNotesInfo" style="display:none"></p>
+</div>

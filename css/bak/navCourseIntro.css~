@@ -1,0 +1,198 @@
+@charset "utf-8";
+#wrapper{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:93%;
+}
+/*课程和人的关系的提示DIV*/
+#courseIntroSysInfo{
+	position: relative;
+	top: 39px;
+	left: 11px;
+}
+#courseIntroSysInfoLabel{
+	position: relative;
+	left: 40px;
+	top: -45px;
+}
+
+/*left area*/
+#imgLarge {
+	position:relative;
+	width:200px;
+	top:20px;
+	display:block;
+}
+#editPane{
+	position:relative;
+	left:10px;
+	top:35px;
+}
+#coursePhotoEdit {
+	position:relative;
+	display:none;
+	left:13px;
+}
+#courseIntroEdit {
+	position:relative;
+	display:none;
+	left:13px;
+}
+.short_separator{	
+	position:relative;
+	margin-left:5px;
+	width:158px;
+	height:0px;
+	margin-top:4px;
+	margin-bottom:4px;
+	border-top:1px solid #a5a5a5;
+}
+
+/*right area*/
+#courseIntroSpecificShowAll {
+	position:absolute;
+	top:20px;
+	left:245px;
+	font-size: 16px;
+	display: none;
+}
+#courseIntroSpecificEditAll {
+	display: none;
+}
+h3{
+	position:relative;
+	font-size:16px;
+	font-weight:normal;
+	color:#2c7db5;
+	width:10em;
+	z-index:1;
+	margin-top:0px;
+	height:15px;
+	font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
+}
+
+/*课程信息表格*/
+.courseInfoTable{
+	margin:10px;
+	table-layout: fixed;
+	border-collapse: collapse;
+	text-align: left;
+	height:30px;
+}
+.courseInfoTable .typeInfo{  width:150px;}
+.courseInfoTable .labelInfo{ width:500px;}
+.courseInfoTable tr td{
+	background:white;
+	font-weight:bold;
+	font-size:15px;
+	height:30px;
+	color:#2c7db5;
+	font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
+}
+.courseInfoTable tr td label{
+	font-size:15px;
+	color:#454545;
+	font-weight:normal;
+	font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
+}
+
+/*separator line*/
+.bg_line{
+	position:relative;
+	height:1px;
+	width:400px;
+	background:url("../images/borderline.png") repeat-x;
+}
+/*adjust position*/
+#table{
+	position:relative;
+	left:-8px;
+}
+#courseIntroSpecificEditAll {
+	position:absolute;
+	top:20px;
+	left:250px;
+}
+
+#userInfoEditTitlePane {
+	border:1px solid #257fae;
+	height:33px;
+	width: 584px;
+	background: url('../images/editionTitle_bg.png') repeat-x;
+}
+
+#userInfoEditTitlePane  span{
+
+	position:relative;
+	left:505px;
+	top: -25px;
+
+}
+#userInfoEditTitlePane a {
+	cursor:pointer;
+}
+
+#userInfoEditTitlePane h3{
+	position:relative;
+	top:5px;
+	left:25px;
+	font-size:16px;
+	font-style:bold;
+	color:#0d5689;
+}
+
+#userInfoShowTitlePane{
+	position:relative;
+	top:0;
+	width:584px;
+	height:33px;
+}
+#userInfoShowTitlePane a{
+	position:relative;
+	top:-30px;
+	left:535px;
+	cursor:pointer;
+}
+
+#edit-box-table {
+	height:394px;
+	width:586px;
+	background-color:#f1f1f2;
+	border:1px solid #ababac;
+	color:#333333;
+	font-size:15px;
+	font-style:bold;
+}
+#edit-box-table input{
+	border: 1px solid #abadb3;
+}
+.td1 {
+	width:70px;
+	padding-left:13px;
+}
+/*others*/
+a.sendUserApply{
+	width:50px;
+	height:50px;
+	display: block;
+	background: url('../images/addfriend_up.png') no-repeat;
+}
+a.hasBeenFriend {
+	width:50px;
+	height:50px;
+	display: block;
+	background: url('../images/friend.png') no-repeat;
+}
+a.waitForAnswer {
+	width:50px;
+	height:50px;
+	display: block;
+	background: url('../images/application_wait.png') no-repeat;	
+}
+a.manageCourse {
+	width:50px;
+	height:50px;
+	display: block;
+	background: url('../images/manager.png') no-repeat;	
+}

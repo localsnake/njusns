@@ -1,0 +1,134 @@
+﻿#regWrapper { 
+  position: relative;
+  text-align: left;
+  margin-left:auto;
+  margin-right:auto;
+  width:700px;
+}
+table{
+	margin-top:30px;
+	border-collapse:collapse;
+	width:700px;
+}
+tr{
+	border:none;
+	text-align:left;
+}
+td{
+	border:1px solid #bcbcbd;
+	padding:0px;
+	text-align:left;
+}
+select{
+	height:37px;
+	width:100px;
+}
+#regEmailType{
+	width:190px;
+	margin-left:0px;
+}
+#regBirthMonth{
+	margin-left:0px;
+}
+#regBirthDay{
+	margin-left:0px;
+}
+.column_1{
+	height:49px;
+	font-size:15px;
+	color:#0d5689;
+	background:#d4d9dc;
+	width:170px;
+	font-family:"Microsoft YaHei",
+	微软雅黑,
+	"Microsoft JhengHei",
+	华文细黑,
+	STHeiti,
+	MingLiu;
+}
+.column_1.high{
+}
+.column_2{
+	background:#f1f1f2;
+}
+.column_2 input{
+	margin-left:25px;
+}
+.column_2 select{
+	margin-left:25px;
+}
+.column_2.high{
+	height:155px;
+}
+.input{
+	border:1px solid #bcbcbd;
+	height:37px;
+	-webkit-box-shadow:inset 0 0 10px #c7c7c7;
+	-moz-box-shadow:inset 0 0 10px #c7c7c7;
+	box-shadow:inset 0 0 10px #c7c7c7;	
+}
+input:focus,select:focus {
+	background-color:#f7f7f7;
+}
+.type{
+	margin-left:60px;
+}
+.suggestion{
+	position:relative;
+	top:-47px;
+	left:240px;
+	padding-left:20px;
+	width:255px;
+	height:82px;
+	background:#ffdd69;
+	border:1px solid #965f22;
+	font-size:15px;
+	color:#965f22;
+	border-radius: 15px;
+    	-webkit-border-radius: 5px;
+    	-moz-border-radius: 15px;
+	font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
+}
+#regValidation{
+	margin-top:15px;
+	width:75px;
+}
+#regValidationImg{
+	width:160px;
+	height:40px;
+	position:absolute;
+	top:420px;
+	left:198px;
+}
+#regAnother{
+	position:absolute;
+	top:460px;
+	left:198px;
+}
+#validationWrapper{
+	height:150px;
+}
+#buttonWrapper{
+	margin-left:198px;
+	width:200px;
+	height:50px;
+	margin-top:10px;
+}
+/* Email Info pane */
+.tip {
+	color: blue;
+	text-align: left;
+	font-size: 80%;
+	padding-left:3px;
+	margin: 0 0 3px 45px;
+	width: 350px;
+}
+/* Button CSS */
+.button{
+	width:66px;
+	height:42px;
+}
+/*#regBtn{position:relative; background:url("../images/register.png") no-repeat; }
+#bckBtn{position:relative; background:url("../images/back.png") no-repeat; }
+#regBtn[disabled='disabled']{ background:url("../images/register_unefctv.png") no-repeat;}*/
+/*#regBtn:active,#bckBtn:active {top:1px;}*/

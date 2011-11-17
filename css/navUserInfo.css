@@ -1,0 +1,212 @@
+﻿@charset "utf-8";
+#wrapper{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:880px;
+	height:500px;
+}
+.editWrapper {
+	position:relative;
+	margin-bottom:55px;
+}
+/*Left area*/
+#leftPane{
+	position:relative;
+	top:20px;
+	width:200px;
+	height:500px;
+}
+#imgLarge{
+	position:relative;
+	width:200px;
+}
+#editPane{
+	position:relative;
+	top:20px;
+	left:10px;
+}
+#userInfoEdit,#userUploadPhoto {
+	position:relative;
+	left:22px;
+}
+.short_separator{
+	position:relative;
+	margin-left:5px;
+	width:158px;
+	height:0px;
+	margin-top:4px;
+	margin-bottom:4px;
+	border-top:1px solid #a5a5a5;
+}
+/*Right area show version*/
+.wrapper h3{
+	position:relative;
+	left:25px;
+	font-size:16px;
+	color:#2c7db5;
+	width:8em;
+	z-index:1;
+	background:white;
+	font-weight:normal;
+	font-family:"Microsoft YaHei",
+			微软雅黑,
+			"Microsoft JhengHei",
+			华文细黑,
+			STHeiti,
+			MingLiu;
+}
+.bg_line{
+	position:relative;
+	top:-29px;
+	height:1px;
+	width:250px;
+	background:url("../images/borderline.png") repeat-x;
+}
+.specificInfo{
+	position:relative;
+	top:-500px;
+	left:245px;
+	width:400px;
+	font-size: 16px;
+}
+.specificInfo input {	border: 1px solid #abadb3;	}
+
+.specificInfo .table{
+	position:relative;
+	top:-10px;	
+}
+.edit-box-table{
+	position:relative;
+	margin:0px;
+	width:585px;
+	height:170px;
+	background-color:#f1f1f2;
+	border:1px solid #ababac;
+	color:#333333;
+	font-size:15px;
+	font-style:bold;
+}
+#userInfoSpecificEditAll {
+	position:relative;
+}
+#userInfoSpecificEditAllPage2 {
+	position:relative;
+}
+#userInfoSpecificShowAll{
+	position:relative;
+}
+#userInfoSpecificShowAllPage2{
+	position:relative;
+}
+#userInfoEditTitlePane {
+	border:1px solid #2c7db5;
+	height:33px;
+	width: 633px;
+	background: url('../images/editionTitle_bg.png') repeat-x;
+}
+#userInfoEditTitlePane  span{
+	position:relative;
+	left:505px;
+	top: -45px;
+}
+#userInfoEditTitlePane a {
+	cursor:pointer;
+}
+
+#userInfoEditTitlePane h3{
+	position:relative;
+	top:-10px;
+	left:25px;
+	font-size:16px;
+	font-style:bold;
+	color:#0d5689;
+}
+
+#userInfoShowTitlePane{
+	position:relative;
+	top:-5px;
+	width:635px;
+	height:33px;
+}
+#userInfoShowTitlePane a{
+	position:relative;
+	top:-35px;
+	left:535px;
+	cursor:pointer;
+}
+#userInfoSpecificShow1 {
+	position:absolute;
+	top:0;
+	left:0;
+}
+#userInfoSpecificShow2 {
+	position:absolute;
+	top:200px;
+	left:0;
+}
+#userInfoSpecificShow3 {
+	position:absolute;
+	top:0;
+	left:0;
+}
+#userInfoSpecificShow4 {
+	position:absolute;
+	top:260px;
+	left:0;
+}
+#userInfoSpecificEdit1 {
+	position:absolute;
+	top:0;
+	left:0;
+}
+#userInfoSpecificEdit2 {
+	position:absolute;
+	top:200px;
+	left:0;
+}
+#userInfoSpecificEdit3 {
+	position:absolute;
+	top:0;
+	left:0;
+}
+#userInfoSpecificEdit4 {
+	position:absolute;
+	top:260px;
+	left:0;
+}
+.edit-box-table {
+	width:635px;
+}
+tr {
+	width:635px;
+}
+.td0 {
+	width:150px;
+	font-weight:bold;
+	text-align:left;
+}
+.td1 {
+	width:485px;
+	position:relative;
+	text-align:left;
+}
+.td2 {
+	width:485px;
+	position:relative;
+	text-align:left;
+}
+.inactive {	/* 此状态下的major不显示 */
+	display: none;
+}
+.active {	/* 此状态下的major显示 */
+	display: block;
+}
+
+#pageControl{
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative; 
+	padding-left:350px;
+}

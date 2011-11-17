@@ -1,0 +1,43 @@
+﻿<link rel="stylesheet" type="text/css" href="css/login.css"/>
+<div id="loginWrapper">
+  <div id="loginPane">
+		<br />
+		<br />
+		<p id='errorEcho' class="errorNotesInfo">
+			<label>&nbsp;</label>
+		</p>
+		<br />
+		
+		<form method='post' onsubmit="loginLogin();">
+		<table>
+				<tr>
+					<td><label for="email" class ="loginInputType"><span domain="l10n">Login Email</span>: &nbsp;&nbsp;&nbsp;  </label></td>
+					<td><input id="loginEmail" class="loginInput" type="text" name="loginEmail" autofocus="autofocus"  autocomplete="off"></input></td>
+				</tr>
+				<tr>
+					<td><label for="pwd"     class="loginInputType"><span domain="l10n">Password</span>: &nbsp;&nbsp;&nbsp;   </label></td>
+					<td><input id="loginPwd" class="loginInput" type="password" name="loginPwd"/><td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<!-- 
+						<input id="loginBtn" class="approved btn" type="button" value="&nbsp;&nbsp;" name="loginBtn"/>
+						<input id="regBtn"   class="approved btn" type="button" value="&nbsp;&nbsp;" name="regBtn"/>
+						-->
+						<a id="loginBtn" class="approved btn" name="loginBtn"></a>
+						<a id="regBtnPage"   class="approved btn" name="regBtn"></a>
+						
+					</td>
+				</tr>
+		</table>
+		</form>
+		<div id = "staylogin" style = 'border:0'>
+			<input  id='keepLogin' name="no" type="checkbox" checked/><label domain="l10n">Remeber Me</label>
+		</div>
+		<div id='emailFuncPane'>
+			<a id='forgotPassword' href='frmForgotPass.php' domain="l10n">Retrieve Password</a><br/><br/><br/>
+			<a id='sendConfirmCode' href='frmConfirmMail.php' domain="l10n">Send me verification letter again</a>  
+		</div>	
+  </div>
+</div>

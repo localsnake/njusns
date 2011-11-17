@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title domain="l10n">创建课程</title>
+	
+	<link type="text/css" href="css/frmCourseCreateCourse.css" rel="stylesheet" />	
+	<link type="text/css" href="css/redmond/jquery-ui-1.8.13.custom.css" rel="stylesheet" />	
+	
+	<!-- 今后需要合并 -->
+	<script src="lib/jquery.js" type="text/javascript"></script>
+	<script src="lib/jquery-ui-1.8.13.custom.min.js" type="text/javascript"></script>
+	<script src="lib/jquery.l10n.min.js" type="text/javascript"></script>
+	<script src="lib/jquery.cookie.js" language="JavaScript" type="text/javascript"></script>
+	<script src="scripts/LocalSetting.js" type="text/javascript"></script>
+	<script src="scripts/frmCourseCreateCourse.js" type="text/javascript"></script>
+	
+	
+	<script type="text/javascript">	
+		function getParam(key, value) {
+			var s = document.location.search;
+			if (!s) return value;
+			s = s.substr(1);
+			var re = new RegExp('(^|\&)(' + key + ')\=([^\&]*)(\&|$)', 'gi');
+			var res = re.exec(s);
+			return (res != null) ? decodeURIComponent(res[3]) : value;
+		}
+		var lang = getParam('lang', '');
+		$.l10n.init({
+			dir: 'languages',
+			lang: lang,
+			debug: false,
+		});
+		function T_(lang) {
+			$('[domain=l10n]').l10n({
+				'lang': lang
+			});
+		}
+		$(document).ready(function(){
+			var globalLanguage = 'zh-cn';
+			if($.cookie('language') != null) {
+				globalLanguage = $.cookie('language');
+			}
+			$('[domain=l10n]').l10n();
+			if(globalLanguage == 'zh-cn') T_(globalLanguage);
+		});
+	</script>
+	
+</head>
+<body id="fancyBoxWrapper">
+	<div id="courseCreateCourse">
+		<div id="tableLeft">	
+			<table id='box-table' class="designedTable">		
+				<tr><td>*<strong domain="l10n">Course Name:</strong></td><td><input id="courseName"   name="name" /></td></tr>
+				<tr><td>*<strong domain="l10n">Category:</strong></td><td>
+						<select id="courseType"   name="type">
+							<option value="通修" domain="l10n">通修</option>		
+							<option value="核心" domain="l10n">核心</option>
+							<option value="专业选修" domain="l10n">专业选修</option>
+							<option value="副修" domain="l10n">副修</option>
+							<option value="选修-艺术" domain="l10n">选修-艺术</option>		
+							<option value="选修-文科" domain="l10n">选修-文科</option>	
+							<option value="选修-理科" domain="l10n">选修-理科</option>		
+							<option value="选修-公选" domain="l10n">选修-公选</option>
+							<option value="其他" domain="l10n">其他</option>
+						</select>
+				</td></tr>
+				<tr><td>*<strong domain="l10n">Semester:</strong></td>
+						<td>
+							<select id="courseTerm" name="term">
+								<option value="Fall 2011">Fall 2011</option>
+								<option value="Spring 2012">Spring 2012</option>
+								<option value="Summer 2012">Summer 2012</option>
+								<option value="Fall 2012">Fall 2012</option>
+								<option value="Spring 2013">Spring 2013</option>
+								<option value="Summer 2013">Summer 2013</option>
+								<option value="Fall 2013">Fall 2013</option>
+							</select>
+						</td>
+				</tr>
+				<tr><td class="td1" domain="l10n">Time1(Optional):</td>
+						<td>周
+							<select name="timeWeek1" id="timeWeek1">
+								<option value="--">--</option>
+								<option value="1">一</option>
+								<option value="2">二</option>
+								<option value="3">三</option>
+								<option value="4">四</option>
+								<option value="5">五</option>
+								<option value="6">六</option>
+								<option value="7">日</option>
+							</select>
+						第
+							<select name="timeBegin1" id="timeBegin1">
+								<option value="--">--</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+						-
+							<select name="timeEnd1" id="timeEnd1">
+								<option value="">--</option>
+							</select>节
+						</td>
+				</tr>
+				<tr>
+					<td domain="l10n">Time2(Optional):</td>
+					<td>周 <!-- 这里添加domain会让时间不能选择 -->
+						<select name="timeWeek2" id="timeWeek2">
+							<option value="--">--</option>
+							<option value="1">一</option>
+							<option value="2">二</option>
+							<option value="3">三</option>
+							<option value="4">四</option>
+							<option value="5">五</option>
+							<option value="6">六</option>
+							<option value="7">日</option>
+						</select>
+						第
+						<select name="timeBegin2" id="timeBegin2">
+							<option value="--">--</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+						</select>
+						-
+						<select name="timeEnd2" id="timeEnd2">
+							<option value="">--</option>
+						</select>节
+					</td>
+				</tr>
+				<tr>
+					<td domain="l10n">Time3(Optional):</td>
+					<td>周 
+						<select name="timeWeek3" id="timeWeek3">
+							<option value="--">--</option>
+							<option value="1">一</option>
+							<option value="2">二</option>
+							<option value="3">三</option>
+							<option value="4">四</option>
+							<option value="5">五</option>
+							<option value="6">六</option>
+							<option value="7">日</option>
+						</select>
+						第
+						<select name="timeBegin3" id="timeBegin3">
+							<option value="--">--</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+						</select>
+						-
+						<select name="timeEnd3" id="timeEnd3">
+							<option value="">--</option>
+						</select>节
+					</td>
+				</tr>
+				<tr><td domain="l10n">Classroom:</td><td><input id="coursePlace"  name="place"/></td></tr>
+				<tr><td domain="l10n">Num Of Students:</td><td><input id="courseNumber" name="number"/></td></tr>
+				<tr><td domain="l10n">Textbook:</td><td><input id="courseBook"   name="book"/></td></tr>
+				
+			</table>
+		</div>	
+
+		<div id="tableRight">
+			<table id='box-table' class="designedTable">
+				
+				<tr>
+					<td>*<strong domain="l10n">Verify Type:</strong></td>
+					<td><select id="courseVerify" name="type">
+							<!--<option value="">请选择</option>-->
+							<option value="C" domain="l10n">By Code</option>
+							<option value="N" domain="l10n">None</option>
+							<option value="Y" domain="l10n">Manually</option>		
+						</select>
+					</td>
+				</tr>
+				<tr id="codeTr">
+					<td>*<strong domain="l10n">Verify Code:</strong></td>
+					<td><input type="text" id="coursePassword" name="password"/></td>
+				</tr>
+			</table>
+			<div id="courseIntroArea">
+				<strong>*<strong domain="l10n">Course Intro:</strong></strong>
+				<div id="textareaWrapper">
+					<textarea id="courseIntro"  name="intro"></textarea>
+					<input id='createBtn' type='submit' name="submit" value=''/>
+				</div>
+				<!--此处的出错提醒需要在设计中补充，因为占地方所以暂时将其display:none-->
+				<p id="errorEcho" class="ui-state-error ui-corner-all err" style="width:210px;">
+					<span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
+					<label style="font-size:12px;">添加失败，我也不知道是什么原因</label>
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

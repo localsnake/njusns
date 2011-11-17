@@ -1,0 +1,38 @@
+﻿<script src="scripts/navCourseLecture.js" type="text/javascript"></script> 
+<!-- 课程名 -->
+<!--<h2></h2>-->
+
+<div id="courseLectureSpecificShowAll">
+	<div id="courseLectureSpecificShow">
+		<div style="display:inline-block" class="topWrapper">
+				<div id="courseCreateLecture" class="fancyboxCreate" style='display:none;'>
+					<!--这个label貌似没用于是我就注掉了-qdx
+					<label id='courseLectureInfo'></label>
+					-->
+					<!--<h3>课件列表</h3>-->
+					<a class="word" domain="l10n">New Slides</a>
+				</div>
+		</div>
+		<div class='seperatorHr'></div>
+		<table class='listStyleTable'  style="position:relative; margin-left:auto;margin-right:auto;">
+			<tr>
+				<th domain="l10n">Slides Title</th>	<!--不可修改-->
+				<th domain="l10n">Create Time</th>
+				<th domain="l10n">Update Time</th>
+				<th class='iconCol' domain="l10n">Visits</th>
+				<th class='iconCol' domain="l10n">Download</th>
+				<th class='manager iconCol' domain="l10n" style="display:none;">Edit</th><!-- 需要权限控制 -->
+				<th class='manager iconCol' domain="l10n" style="display:none;">Delete</th><!-- 需要权限控制 -->
+			</tr>
+			<!--
+			<tr id=[课件id]>
+				<td><label>[课件章节]</label></td>
+				<td><label>[课件标题]</label></td>
+				<td><a name=[课件id]  >下载</a></td>
+				<td><a name=[课件id] class='edit'   title="编辑"  >编辑</a></td>
+				<td><a name=[课件id] class='delete' title="删除"  >删除</a></td>
+			</tr>
+			-->				
+		</table>
+	</div>
+</div>

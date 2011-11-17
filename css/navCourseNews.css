@@ -1,0 +1,64 @@
+﻿@charset "utf-8";
+#noticeContentLabel{
+	padding-left:30px;
+	line-height: 40px;
+	font-size:15px;
+	font-family: "微软雅黑",Times,serif;
+}
+#courseNewsInfo{
+	font-family: Tahoma,"微软雅黑",Times,serif;
+	border: 2px solid #dde3ec;
+	height: 149px;
+	font-size: 15px;	
+	margin-left: 20px;
+	color:#454545;
+	width:850px;
+	background-color: #dde3ec;
+	border: 2px solid #b3c5d1;
+}
+#noticeContent{
+	font-family: Tahoma,"微软雅黑",Times,serif;
+	font-size: 15px;
+	color:gray;	
+	resize:none;
+	margin-left:35px;
+	height:55px;
+	width:780px;
+	overflow-x:hidden;
+	border:1px solid #2c7db5;
+}
+#noticeInfoPane{
+	float:right;
+	margin-right:35px;
+	display:inline-block;
+}
+#countPane{
+	margin-top:2px;
+	display:inline-block;
+	vertical-align:top;
+	height:35px;
+	line-height:35px;
+}
+/*发布通知的按钮*/
+#uploadNoticeBtn{
+	position:relative;
+	display:inline-block;
+	width:144px;
+	height:35px;
+	line-height:35px;
+}
+#uploadNoticeBtn:active{	 top:1px;	}
+
+
+#wordCount{
+	padding-top: 15px;
+	font-size: 15px;
+	font-family: "微软雅黑",Times,serif;
+	color:#ff0000;
+}
+#totalCount{
+	padding-top: 15px;
+	font-size: 15px;	
+	font-family: "微软雅黑",Times,serif;
+	color:#454545;
+}

@@ -1,0 +1,104 @@
+#wrapper{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:93%;
+}
+/*left area*/
+#imgLarge {
+	position:relative;
+	width:200px;
+	top:20px;
+}
+/*right area*/
+#friendHomepageSpecificShowAllPage2{
+	display:none;
+}
+#friendHomepageSpecificShowAll{
+}
+.wrapper{
+	position:absolute;
+	top:20px;
+	left:245px;
+	font-size: 16px;
+}
+h3{
+	position:relative;
+	left:25px;
+	margin-top:0px;
+	margin-bottom:5px;
+	font-size:16px;
+	color:#2c7db5;
+	width:4em;
+	z-index:1;
+	background:white;
+	font-family:"Microsoft YaHei",
+			微软雅黑,
+			"Microsoft JhengHei",
+			华文细黑,
+			STHeiti,
+			MingLiu;
+
+}
+/*separator line*/
+.bg_line{
+	position:relative;
+	top:-17px;
+	height:2px;
+	width:250px;
+	background:url("../images/borderline.png") repeat-x;
+}
+/*Bottom page control panel*/
+#pageControl{
+	position:absolute;
+	top:500px;
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#pagePrev {
+	display:block;
+	visibility:hidden;
+	width:50px;
+}
+#userInfoPage {
+	position:relative;
+	left: -15px;
+}
+#pageNext {
+	display:block;
+	width:50px;
+}
+
+#friendHomepageSysInfo {
+	position: relative;
+	top: 39px;
+	left: 11px;
+}
+#friendHomepageInfo{
+	position: relative;
+	left: 40px;
+	top: -30px;
+}
+a.sendUserApply, a.sendUserApply:hover,a.hasBeenFriend,a.waitForAnswer,a.manageCourse {
+	background:url('../images/icons.png') no-repeat;
+	width:31px;
+	height:31px;
+	display: block;
+}
+a.sendUserApply{		background-position: -108px 0px;	}
+a.sendUserApply:hover{	background-position: -72px 0px;		}
+a.hasBeenFriend {		background-position: -396px 0px;	}
+a.waitForAnswer {		background-position: -144px 0px;	}
+a.manageCourse {		background-position: -432px 0px;	}
+
+.td0 {
+	width:100px;
+	font-weight:bold;
+	text-align:left;
+}
+.td1 {
+	width:485px;
+	position:relative;
+	text-align:left;
+}

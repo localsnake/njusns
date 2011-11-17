@@ -1,0 +1,70 @@
+﻿@charset "utf-8";
+#suggestionTitle {
+	-webkit-mask-image: -webkit-gradient(linear, 0% 0%, 15% 0%, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+#buttonPane{
+	height: 50px;
+	line-height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 342px;
+}
+#uploadSuggestion {
+	background-color:#dddddd;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 1px #c4b4b4;
+	width: 820px;
+	height: 220px;
+	
+}
+
+#userSuggestion {
+	margin: 15px;
+	width: 790px;
+	height: 140px;
+	padding: 0;
+	resize: none;
+}
+
+.button {
+	background-color:#2c7db5;
+	font-size:18px;
+	font-family: 微软雅黑;
+	border:solid 1px black;
+	color:white;
+	width:135px;
+	height:35px;
+	display:inline-block;
+	margin-left:17.5px;
+	margin-right:17.5px;
+	
+}
+
+#buttonsPane {
+	position: relative;
+	margin-left:225px;
+}
+
+#suggestionWrapper {
+	position:relative;
+	margin-top:70px;
+}
+
+.suggestionDiv{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.suggestionDetail {
+	margin-top:40px;
+}
+
+
+.button:active {
+	background-color: #0d5689;
+	position:relative;
+	top:1px;
+}

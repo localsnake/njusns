@@ -1,0 +1,152 @@
+﻿@charset "utf-8";
+.msgModuleDiv{
+	margin-top:22px;
+	width:800px;
+	margin-left:40px;
+}
+#inboxTable,#sentMailTable { 
+	width:800px; 
+}
+.msgItem0:hover,.msgItem1:hover{	cursor:pointer;}
+.msgItem1{ font-weight:bold;} 		/*未读邮件*/
+.msgTable .msgUserInfo {
+	width:220px;
+	text-align:left; 
+	padding-left:10px;
+}
+.msgTable .checkbox {	
+	margin-right:10px; 
+	padding-right:5px;
+}
+.msgTable .msgTitleContent{ 
+	width:400px;
+	text-align:left; 
+	padding-left:10px;
+}
+.msgTable .msgTitleContent .msgTitle { color:#0d5689;}
+.msgTable .msgTimeInfo{ width:200px;}
+.msgTable .msgDelete{width:50px;}
+.msgTable .msgTitleContent{
+	word-break:keep-all;/* 不换行 */
+	white-space:nowrap;/* 强制在同一行内显示所有文本，直到文本结束或者遭遇 br 对象。不换行 */
+	overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow:ellipsis;/* IE 专有属性，当对象内文本溢出时显示省略标记() ；需与overflow:hidden;一起使用。*/
+}
+.funcDiv{
+	line-height:26px;
+	height:26px;
+}
+.funcDiv .pageDiv{
+	width:300px;
+	margin-left:200px; 
+	display:inline-block; 
+}
+
+#msgToolBar {
+	display:inline-block; 
+	width:800px;
+	height:31px;
+	line-height:31px;
+}
+
+#groupWrapper{
+	width:800px;
+}
+/*组邮件信件标题*/
+#mailGroupTitle {
+	display:inline-block; 
+	line-height:31px;
+	font-size:18px;
+	color:#2c7db5;
+	font-weight:bold;
+	font-family:"微软雅黑",Times,serif;
+}
+#mailDelete{
+	display:inline-block;
+	width:31px;
+	height:31px;
+	float:right;
+}
+/*组邮件详细信息*/
+.responseDiv{
+	padding-top:20px;
+	width:800px;
+	display:inline-block;
+	border: 2px solid #dde3ec;
+	margin-bottom:15px;
+}
+.responseUserInfo{
+	width:10%;
+	display:inline-block;
+	padding-left:20px;
+	padding-bottom: 20px;
+}
+.responseUserName{	padding-left: 10px;	}
+/*新建详细内容*/
+.responseContent{
+	width:80%;
+	display:inline-block;
+	float:right;
+	font-size:14px;
+	font-family:"微软雅黑",Times, serif; 
+	color:#454545;
+}
+/*发表时间*/
+.responseTimeInfo{
+	text-align:right;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+/*快速回复*/
+#quickReply{
+	font-family: Tahoma,"微软雅黑",Times,serif;
+	border: 2px solid #dde3ec;
+	height: 250px;
+	font-size: 15px;	
+	/*margin-left: 20px;*/
+	color:#454545;
+	background-color: #dde3ec;
+	border: 2px solid #b3c5d1;
+}
+#msgQuickReplyContent{
+	font-family: Tahoma,"微软雅黑",Times,serif;
+	font-size: 14px;
+	color:#454545;
+	resize:none;
+	margin-left:30px;
+	height:160px;
+	width:92%;
+	overflow-x:hidden;
+	border:1px solid #2c7db5;
+}
+.msgReplyLabel{
+	padding-left:30px;
+	line-height: 40px;
+	font-size:15px;
+	font-family: "微软雅黑",Times,serif;
+}
+/*确认.返回按钮DIV */
+.buttonDiv{
+	display:inline-block;
+	margin-left:300px;
+	position:relative;
+}
+.bckBtn,.sendBtn{
+	cursor:pointer;
+	position:relative;
+	width:66px;
+	height:42px;
+	display:inline-block;
+}
+.bckBtn:active,.sendBtn:active{ top:1px; }
+.bckBtn{	background: url('../images/back.png') no-repeat;	}
+.sendBtn{	background: url('../images/send.png') no-repeat;	}
+.msgTitleDiv {
+	font-family: Tahoma,"微软雅黑",Times,serif;
+	border: 2px solid #dde3ec;
+	height: 35px;
+	font-size: 15px;
+	color:#454545;
+	background-color: #dde3ec;
+	border: 2px solid #b3c5d1;
+}

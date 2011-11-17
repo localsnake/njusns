@@ -1,0 +1,29 @@
+/**
+  * the style sheet of frmAgreement.php
+  * 
+  * @author Jiacunxin <imposimon@gmail.com>
+  * @last modified 2011-09-26
+  * @created 2011-09-26
+  * @copyright LocalsNake Net League 2011
+  * 
+  */
+  
+body {
+	width:700px;
+	height:600px;
+	background-color:#f1f1f2;
+}  
+
+#agreementTitle h1 {
+	font-family:微软雅黑;
+	font-size: 18px;
+	font-style: bold;
+	color: #454545;
+	text-align: center;
+}
+
+#agreementContent {
+	font-family:微软雅黑;
+	font-size:14px;
+	color:#454545;
+}

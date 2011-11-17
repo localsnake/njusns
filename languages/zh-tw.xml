@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<messages>
+	<message>
+		<msgid><![CDATA[Image]]></msgid>
+		<msgstr><![CDATA[圖像]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Button Title]]></msgid>
+		<msgstr><![CDATA[按鈕標題]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Button]]></msgid>
+		<msgstr><![CDATA[按鈕]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[L10N (Localization) By Javascript]]></msgid>
+		<msgstr><![CDATA[Javascript 的當地語系化]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[<em>String with HTML tag</em>. It work still with bugs for IE, if the tag was set with attributes.]]></msgid>
+		<msgstr><![CDATA[<em>包含 HTML 標籤的字串</em>，但是如果標籤設置了屬性，則它在 IE 下運行時仍有 bug。]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Outputted by script.]]></msgid>
+		<msgstr><![CDATA[通過腳本輸出。]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[This sentence was outputted by function $.l10n._e.]]></msgid>
+		<msgstr><![CDATA[這句話是由函數 L10N._e 輸出的。]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Hello world]]></msgid>
+		<msgstr><![CDATA[世界，您好]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Plural form:]]></msgid>
+		<msgstr><![CDATA[複數形式:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[No message]]></msgid>
+		<msgstr><![CDATA[沒有資訊]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[One message]]></msgid>
+		<msgstr><![CDATA[一條信息]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[%d messages]]></msgid>
+		<msgstr><![CDATA[共 %d 條信息]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Messages Picker]]></msgid>
+		<msgstr><![CDATA[資訊提取器]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[You can pick all messages easier by using this tool.]]></msgid>
+		<msgstr><![CDATA[使用該腳本，您可以很容易的將所有需要翻譯的語句提取出來。]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Selector]]></msgid>
+		<msgstr><![CDATA[選擇器]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Encode]]></msgid>
+		<msgstr><![CDATA[編碼]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Parse functions (__, _e, _n and _ne)?]]></msgid>
+		<msgstr><![CDATA[同時解析函數（__, _e, _n 和 _ne）嗎？]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Pick]]></msgid>
+		<msgstr><![CDATA[提取]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Source code (Paste the HTML into follow box):]]></msgid>
+		<msgstr><![CDATA[原始程式碼（將 HTML 代碼粘帖到下面的框中）:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Messages (XML format):]]></msgid>
+		<msgstr><![CDATA[資訊（XML 格式）:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Links]]></msgid>
+		<msgstr><![CDATA[相關連結]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Home]]></msgid>
+		<msgstr><![CDATA[主頁]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Download]]></msgid>
+		<msgstr><![CDATA[下載]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Document]]></msgid>
+		<msgstr><![CDATA[文檔]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Author]]></msgid>
+		<msgstr><![CDATA[作者]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Copy to clipboard]]></msgid>
+		<msgstr><![CDATA[複製到剪貼板]]></msgstr>
+	</message>
+</messages>

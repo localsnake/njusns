@@ -1,0 +1,784 @@
+﻿<link rel="stylesheet" type="text/css" href="css/navUserInfo.css???????" />
+<script src="scripts/navUserInfo.js" type="text/javascript"></script>
+
+<div id="wrapper">
+  <!-- 系统提示 -->
+  <div id="userInfoSysInfo">
+  
+  </div>
+  
+  <div id="leftPane">
+    <img id='imgLarge'></img>
+    <div id="editPane">
+        <hr class="short_separator" />
+        <a id="userUploadPhoto" domain="l10n">Change Profile Picture</a>
+        <hr class="short_separator" />
+        <a id="userInfoEdit" domain="l10n" >Edit Info</a>
+        <hr class="short_separator" />
+    </div>
+  </div>
+ 
+  <!-- 详细资料给人看版 -->  
+  <div id="userInfoSpecificShowAll" class="specificInfo">
+		<!-- 编辑的链接/按钮 -->
+		<!--<div>
+			<a id="userInfoEdit" title="编辑"  ></a>
+		</div>-->
+		<div id="userInfoSpecificShow1" class="wrapper">
+		
+			<div id="userInfoShowTitlePane">
+				<h3 domain="l10n">Basic Info</h3>
+				<div class="bg_line"></div>
+				<a class="editBtn" name="1" domain="l10n" >Edit</a>
+			</div>
+			<div class="table">
+				<table id="box-table" class="introTable">
+					<tr><td class="td0" domain="l10n">Name:</td><td class="td1"><label id="userInfoUsername" name="username"></label></td></tr>
+					<tr><td class="td0" domain="l10n">Gender:</td><td class="td1"><label id="userInfoGender"	  name="gender"></label></td></tr>
+					<tr><td class="td0" domain="l10n">Birthdate:</td><td class="td1"><label id="userInfoBirth"	  name="birth"></label></td></tr>
+					<tr><td class="td0" domain="l10n">Hometown:</td><td class="td1"><label 		id="userInfoHometown" name="hometown"></label></td></tr>
+				</table>
+			</div>
+		</div>
+	
+		<div id="userInfoSpecificShow2" class="wrapper">
+			<div id="userInfoShowTitlePane">
+				<h3 domain="l10n">School Info</h3> 
+				<div class="bg_line"></div>
+				<a class="editBtn" name="2" domain="l10n">Edit</a>
+			</div>
+			<div class="table">
+				<table id='box-table' class="introTable">
+					<tr><td class="td0" domain="l10n">Department:</td>
+						<td class="td1"><label id="userInfoDept"	domain="l10n"  name="dept"></label></td></tr>
+					<tr><td class="td0" domain="l10n">Major:</td>
+						<td class="td1"><label id="userInfoMajor" 	domain="l10n"  name="major"></label></td></tr>
+					<tr><td class="td0" domain="l10n">Dorm room:</td>
+						<td class="td1"><label id="userInfoDorm"	  name="dorm"></label></td></tr>
+				</table>
+			</div>
+		</div>
+  </div>
+
+  <div id="userInfoSpecificShowAllPage2" class="specificInfo">
+		<div id="userInfoSpecificShow3" class="wrapper">
+			<div id="userInfoShowTitlePane">
+				<h3 class="introTableLabel" domain="l10n">Interests Info</h3>
+				<div class="bg_line"></div>
+				<a class="editBtn" name="3" domain="l10n">Edit</a>
+			</div>
+			<div class="table">
+				<table id='box-table' class="introTable">
+				<tr><td class="td0" domain="l10n">Interests:</td>
+					<td class="td1"><label 	id="userInfoHobby"	  name="hobby"></label></td></tr>
+				<tr><td class="td0" domain="l10n">Musics:</td>
+					<td class="td1"><label 	id="userInfoMusic"	  name="music"></label></td></tr>
+				<tr><td class="td0" domain="l10n">Movies:</td>
+					<td class="td1"><label 	id="userInfoFilm"	  name="film"></label></td></tr>
+				<tr><td class="td0" domain="l10n">Sports:</td>
+					<td class="td1"><label 	id="userInfoSport"	  name="sport"></label></td></tr>
+				<tr><td class="td0" domain="l10n">Books:</td>
+					<td class="td1"><label 	id="userInfoBook"	  name="book"></label></td></tr>
+				</table>
+			</div>
+		</div>
+		<div id="userInfoSpecificShow4" class="wrapper">
+			<div id="userInfoShowTitlePane">
+				<h3 class="introTableLabel" domain="l10n">Contact Info</h3>
+				<div class="bg_line"></div>
+				<a class="editBtn" name="4" domain="l10n">Edit</a>
+			</div>
+			<div class="table">
+				<table id='box-table' class="introTable">
+				<tr><td class="td0" domain="l10n">Email:</td>
+					<td class="td1"><label 		id="userInfoEmail"	  name="email"></label></td></tr>
+				<tr><td class="td0" domain="l10n">QQ:</td>
+					<td class="td1"><label 		  id="userInfoQq"		  name="qq"></label></td></tr>
+				<tr><td class="td0" domain="l10n">MSN:</td>
+					<td class="td1"><label 		id="userInfoMsn"	  name="msn"></label></td></tr>
+				<tr><td class="td0" domain="l10n">Phone:</td>
+					<td class="td1"><label 	id="userInfoPhone"	  name="phone"></label></td></tr>
+				</table>
+			</div>
+		</div>
+  </div>
+  
+	
+  <!-- 详细资料编辑版 -->  
+  
+  <div id="userInfoSpecificEditAll" class="specificInfo">
+
+		<div id="userInfoSpecificEdit1" class="editWrapper">
+		<!-- 保存/取消的链接/按钮 -->
+			<div id = "userInfoEditTitlePane">
+				<h3 class="introTableLabel" domain="l10n">Basic Info</h3>
+				<span>
+					<a class="saveBtn" name="1" domain="l10n">Save</a>
+					<a class="cancelBtn" name="1" domain="l10n">Cancel</a>
+				</span>
+			</div>
+			<div>
+				<table class="edit-box-table">
+					<tr>
+						<td class="td0" domain="l10n">Name:</td>
+						<td class="td2"><input 	type="text" id="userInfoUsernameEdit" name="username" /></td>
+					</tr>
+					<tr>
+						<td class="td0" domain="l10n">Gender:</td>
+						<td class="td2">
+							<select id="userInfoGenderEdit" name="gender">
+								<option value="M" domain="l10n">Male</option> 
+								<option value="F" domain="l10n">Female</option> 						
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="td0" domain="l10n">Birthdate:</td>
+						<td class="td2">
+							<select id="userInfoBirthEditYear" name="userInfoBirthEditYear">
+								<option value="选择年">选择年</option>
+								<option value="2010">2010</option>				<option value="2009">2009</option>
+								<option value="2008">2008</option>				<option value="2007">2007</option>
+								<option value="2006">2006</option>				<option value="2005">2005</option>
+								<option value="2004">2004</option>				<option value="2003">2003</option>
+								<option value="2002">2002</option>				<option value="2001">2001</option>
+								<option value="2000">2000</option>				<option value="1999">1999</option>
+								<option value="1998">1998</option>				<option value="1997">1997</option>
+								<option value="1996">1996</option>				<option value="1995">1995</option>
+								<option value="1994">1994</option>				<option value="1993">1993</option>
+								<option value="1992">1992</option>				<option value="1991">1991</option>
+								<option value="1990">1990</option>				<option value="1989">1989</option>
+								<option value="1988">1988</option>				<option value="1987">1987</option>
+								<option value="1986">1986</option>				<option value="1985">1985</option>
+								<option value="1984">1984</option>				<option value="1983">1983</option>
+								<option value="1982">1982</option>				<option value="1981">1981</option>
+								<option value="1980">1980</option>				<option value="1979">1979</option>
+								<option value="1978">1978</option>				<option value="1977">1977</option>
+								<option value="1976">1976</option>				<option value="1975">1975</option>
+								<option value="1974">1974</option>				<option value="1973">1973</option>
+								<option value="1972">1972</option>				<option value="1971">1971</option>
+								<option value="1970">1970</option>				<option value="1969">1969</option>
+								<option value="1968">1968</option>				<option value="1967">1967</option>
+								<option value="1966">1966</option>				<option value="1965">1965</option>
+								<option value="1964">1964</option>				<option value="1963">1963</option>
+								<option value="1962">1962</option>				<option value="1961">1961</option>
+								<option value="1960">1960</option>				<option value="1959">1959</option>
+								<option value="1958">1958</option>				<option value="1957">1957</option>
+								<option value="1956">1956</option>				<option value="1955">1955</option>
+								<option value="1954">1954</option>				<option value="1953">1953</option>
+								<option value="1952">1952</option>				<option value="1951">1951</option>
+								<option value="1950">1950</option>				<option value="1949">1949</option>
+								<option value="1948">1948</option>				<option value="1947">1947</option>
+								<option value="1946">1946</option>				<option value="1945">1945</option>
+								<option value="1944">1944</option>				<option value="1943">1943</option>
+								<option value="1942">1942</option>				<option value="1941">1941</option>
+								<option value="1940">1940</option>				<option value="1939">1939</option>
+								<option value="1938">1938</option>				<option value="1937">1937</option>
+								<option value="1936">1936</option>				<option value="1935">1935</option>
+								<option value="1934">1934</option>				<option value="1933">1933</option>
+								<option value="1932">1932</option>				<option value="1931">1931</option>
+								<option value="1930">1930</option>				<option value="1929">1929</option>
+								<option value="1928">1928</option>				<option value="1927">1927</option>
+								<option value="1926">1926</option>				<option value="1925">1925</option>
+								<option value="1924">1924</option>				<option value="1923">1923</option>
+								<option value="1922">1922</option>				<option value="1921">1921</option>
+								<option value="1920">1920</option>				<option value="1919">1919</option>
+								<option value="1918">1918</option>				<option value="1917">1917</option>
+								<option value="1916">1916</option>				<option value="1915">1915</option>
+								<option value="1914">1914</option>				<option value="1913">1913</option>
+								<option value="1912">1912</option>				<option value="1911">1911</option>
+								<option value="1910">1910</option>				<option value="1909">1909</option>
+								<option value="1908">1908</option>				<option value="1907">1907</option>
+								<option value="1906">1906</option>				<option value="1905">1905</option>
+								<option value="1904">1904</option>				<option value="1903">1903</option>
+								<option value="1902">1902</option>				<option value="1901">1901</option>
+								<option value="1900">1900</option>
+							</select>
+							<label for="year">-</label>
+							<select id="userInfoBirthEditMonth" name="userInfoBirthEditMonth">
+								<option value="选择月">选择月</option>
+								<option value="01">1</option>
+								<option value="02">2</option>
+								<option value="03">3</option>
+								<option value="04">4</option>
+								<option value="05">5</option>
+								<option value="06">6</option>
+								<option value="07">7</option>
+								<option value="08">8</option>
+								<option value="09">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+							</select>
+							<label for="month">-</label>
+							<select id="userInfoBirthEditDay" name="userInfoBirthEditDay">
+								<option value="选择日">选择日</option>
+							</select>
+							<label for="day"></label>
+						</td>
+					</tr>
+					<tr>
+						<td class="td0" domain="l10n">Hometown:</td>
+						<td class="td2">
+							<input type="text" id="userInfoHometownEdit" name="hometown" />
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="userInfoSpecificEdit2" class="editWrapper">
+			<div id = "userInfoEditTitlePane">
+				<h3 class="introTableLabel" domain="l10n">School Info</h3>
+				<span>
+					<a class="saveBtn" name="2" domain="l10n">Save</a>
+					<a class="cancelBtn" name="2" domain="l10n">Cancel</a>
+				</span>
+			</div>
+			<div>
+				<table class='edit-box-table'>
+					<tr>
+						<td class="td0" domain="l10n">Department:</td>
+						<td class="td2">
+							<!--<input type="text" id="userInfoDeptEdit" name="dept" />-->
+							<select id="userInfoEditDept" name="userInfoEditDept">
+
+								<option domain="l10n" value='Public_Courses' name='00'>Public Courses</option> 
+								<option domain="l10n" value='School_of_Humanities' name='01'>School of Humanities</option> 
+								<option domain="l10n" value='Department_of_History' name='02'>Department of History</option> 
+								<option domain="l10n" value='School_of_Law' name='03'>School of Law</option> 
+								<option domain="l10n" value='Department_of_Philosophy' name='04'>Department of Philosophy</option> 
+								<option domain="l10n" value='School_of_Journalism_and_Communication' name='05'>School of Journalism and Communication</option> 
+								<option domain="l10n" value='School_of_Government' name='06'>School of Government</option> 
+								<option domain="l10n" value='Department_of_Information_Management' name='07'>Department of Information Management</option> 
+								<option domain="l10n" value='School_of_Social_and_Behavioral_Sciences' name='08'>School of Social and Behavioral Sciences</option> 
+								<option domain="l10n" value='School_of_Business' name='09'>School of Business</option> 
+								<option domain="l10n" value='School_of_Foreign_Studies' name='10'>School of Foreign Studies</option> 
+								<option domain="l10n" value='Department_of_Mathematics' name='11'>Department of Mathematics</option> 
+								<option domain="l10n" value='School_of_Physics' name='12'>School of Physics</option> 
+								<option domain="l10n" value='School_of_Chemistry_and_Chemical_Engineering' name='13'>School of Chemistry and Chemical Engineering</option> 
+								<option domain="l10n" value='School_of_Life_Sciences' name='14'>School of Life Sciences</option> 
+								<option domain="l10n" value='School_of_Earth_Sciences_and_Engineering' name='15'>School of Earth Sciences and Engineering</option> 
+								<option domain="l10n" value='School_of_Geographic_and_Oceanographic_Sciences' name='16'>School of Geographic and Oceanographic Sciences</option> 
+								<option domain="l10n" value='School_of_Atmospheric_Sciences' name='17'>School of Atmospheric Sciences</option> 
+								<option domain="l10n" value='School_of_Electronic_Science_and_Engineering' name='18'>School of Electronic Science and Engineering</option> 
+								<option domain="l10n" value='School_of_Modern_Engineering_and_Applied_Sciences' name='19'>School of Modern Engineering and Applied Sciences</option> 
+								<option domain="l10n" value='School_of_the_Environment' name='20'>School of the Environment</option> 
+								<option domain="l10n" value='School_of_Astronomy_and_Space_Sciences' name='21'>School of Astronomy and Space Sciences</option> 
+								<option domain="l10n" value='Department_of_Computer_Science_and_Technology' name='22'>Department of Computer Science and Technology</option> 
+								<option domain="l10n" value='Medical_School' name='23'>Medical School</option> 
+								<option domain="l10n" value='Kuang_Yaming_School' name='24'>Kuang Yaming School</option> 
+								<option domain="l10n" value='School_of_Software_Engineering' name='25'>School of Software Engineering</option> 
+								<option domain="l10n" value='Institute_of_Education' name='26'>Institute of Education</option> 
+								<option domain="l10n" value='School_of_Management_and_Engineering' name='27'>School of Management and Engineering</option> 
+								<option domain="l10n" value='School_of_Overseas_Education' name='28'>School of Overseas Education</option> 
+								<option domain="l10n" value='School_of_Architecture_and_Urban_Planning' name='29'>School of Architecture and Urban Planning</option> 
+								<option domain="l10n" value='College' name='31'>College</option> 
+								<option domain="l10n" value='Minor_School' name='34'>Minor School</option> 
+								<option domain="l10n" value='Exchange_students' name='35'>Exchange students</option> 
+								<option domain="l10n" value='General_Courses_of_University' name='36'>General Courses of University</option> 
+								<option domain="l10n" value='Cultural_Quality_Elective_Course' name='37'>Cultural Quality Elective Course</option> 
+								<option domain="l10n" value='Institute_for_Higher_Education' name='39'>Institute for Higher Education</option> 
+								<option domain="l10n" value='Department_of_Applied_Foreign_Language_Studies' name='41'>Department of Applied Foreign Language Studies</option> 
+								<option domain="l10n" value='Leave_of_Absence_or_Drop_Out' name='58'>Leave of Absence or Drop Out</option> 
+								<option domain="l10n" value='School_of_Jinling' name='59'>School of Jinling</option> 
+								<option domain="l10n" value='Graduate_School' name='60'>Graduate School</option> 
+								<option domain="l10n" value='Employment_and_Entrepreneurship_Courses' name='61'>Employment and Entrepreneurship Courses</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="td0" domain="l10n">Major:</td>
+							<td class="td2" id="deptAndMajorTd">
+							<!--<input type="text" id="userInfoMajorEdit"	name="major" />-->
+							<!---1 未选择-->
+							<select id='deptAndMajor-1' class='active' name='deptAndMajor-1'>
+								
+							</select>
+							<!--00 Public Courses-->
+							<select id='deptAndMajor00' class='inactive' name='deptAndMajor00'>
+								
+								<option domain="l10n" value='None' name='000'>None</option>
+								<option domain="l10n" value='General_Seminar' name='001'>General Seminar</option>
+							</select>
+							<!--01 School of Humanities-->
+							<select id='deptAndMajor01' class='inactive' name='deptAndMajor01'>
+								
+								<option domain="l10n" value='Chinese_Language_and_Literature_Class' name='010'>Chinese Language and Literature Class</option>
+								<option domain="l10n" value='Chinese_Language_and_Literature' name='011'>Chinese Language and Literature</option>
+								<option domain="l10n" value='Chinese_Language_and_Literature(Writer_Class)' name='012'>Chinese Language and Literature(Writer Class)</option>
+								<option domain="l10n" value='Theater_Movie_and_Television' name='015'>Theater Movie and Television</option>
+								<option domain="l10n" value='Chinese_Base_Class' name='01A'>Chinese Base Class</option>
+							</select>
+							<!--02 Department of History-->
+							<select id='deptAndMajor02' class='inactive' name='deptAndMajor02'>
+								
+								<option domain="l10n" value='History Class' name='020'>History Class</option>
+								<option domain="l10n" value='History' name='021'>History</option>
+								<option domain="l10n" value='Archaeology' name='022'>Archaeology</option>
+								<option domain="l10n" value='Archaeology(Identification_of_Cultural_Relics)' name='023'>Archaeology(Identification of Cultural Relics)</option>
+								<option domain="l10n" value='History_Base_Class' name='02A'>History Base Class</option>
+							</select>
+							<!--03 School of Law-->
+							<select id='deptAndMajor03' class='inactive' name='deptAndMajor03'>
+								
+								<option domain="l10n" value='Law_Class' name='030'>Law Class</option>
+								<option domain="l10n" value='Law' name='031'>Law</option>
+								<option domain="l10n" value='Law(Athlete_Class)' name='035'>Law(Athlete Class)</option>
+							</select>
+							<!--04 Department of Philosophy-->
+							<select id='deptAndMajor04' class='inactive' name='deptAndMajor04'>
+								
+								<option domain="l10n" value='Philosophy_Class' name='040'>Philosophy Class</option>
+								<option domain="l10n" value='Philosophy' name='041'>Philosophy</option>
+								<option domain="l10n" value='Philosophy_Base_Class' name='04A'>Philosophy Base Class</option>
+							</select>
+							<!--05 School of Journalism and Communication-->
+							<select id='deptAndMajor05' class='inactive' name='deptAndMajor05'>
+							
+							<option domain="l10n" value='Journalism_Class' name='050'>Journalism Class</option>
+							<option domain="l10n" value='Journalism' name='051'>Journalism</option>
+							<option domain="l10n" value='Advertisement' name='052'>Advertisement</option>
+							<option domain="l10n" value='Radio_and_Television' name='053'>Radio and Television</option>
+							<option domain="l10n" value='Journalism(Journalist_Class)' name='054'>Journalism(Journalist Class)</option>
+							<option domain="l10n" value='Journalism(Athlete_Class)' name='055'>Journalism(Athlete Class)</option>
+							</select>
+							<!--06 School of Government-->
+							<select id='deptAndMajor06' class='inactive' name='deptAndMajor06'>
+							
+							<option domain="l10n" value='Public_Administration' name='060'>Public Administration</option>
+							<option domain="l10n" value='Political_Science_and_Public_Administration' name='061'>Political Science and Public Administration</option>
+							<option domain="l10n" value='Administration_Management' name='062'>Administration Management</option>
+							<option domain="l10n" value='International_Politics' name='063'>International Politics</option>
+							<option domain="l10n" value='Political_Science' name='064'>Political Science</option>
+							<option domain="l10n" value='Personnel_Management_and_Social_Security' name='065'>Personnel Management and Social Security</option>
+							<option domain="l10n" value='Education_Technology' name='066'>Education Technology</option>
+							<option domain="l10n" value='Administration_Management(Athlete_Class)' name='068'>Administration Management(Athlete Class)</option>
+							<option domain="l10n" value='Administration_Management(Xinjiang_Class)' name='069'>Administration Management(Xinjiang Class)</option>
+							<option domain="l10n" value='Political_Science_Class' name='06A'>Political Science Class</option>
+							</select>
+							<!--07 Department of Information Management-->
+							<select id='deptAndMajor07' class='inactive' name='deptAndMajor07'>
+							
+							<option domain="l10n" value='Liberal_Arts_Class' name='070'>Liberal Arts Class</option>
+							<option domain="l10n" value='Information_Management_and_Information_Systems' name='071'>Information Management and Information Systems</option>
+							<option domain="l10n" value='Library_Science' name='072'>Library Science</option>
+							<option domain="l10n" value='Archives' name='073'>Archives</option>
+							<option domain="l10n" value='Editing_and_Publishing' name='075'>Editing and Publishing</option>
+							<option domain="l10n" value='Science_Class' name='077'>Science Class</option>
+							</select>
+							<!--08 School of Social and Behavioral Sciences-->
+							<select id='deptAndMajor08' class='inactive' name='deptAndMajor08'>
+							
+							<option domain="l10n" value='Sociology_Class' name='080'>Sociology Class</option>
+							<option domain="l10n" value='Sociology' name='081'>Sociology</option>
+							<option domain="l10n" value='Social_Work_and_Social_Policy' name='082'>Social Work and Social Policy</option>
+							<option domain="l10n" value='Applied_Psychology' name='084'>Applied Psychology</option>
+							</select>
+							<!--09 School of Business-->
+							<select id='deptAndMajor09' class='inactive' name='deptAndMajor09'>
+							
+							<option domain="l10n" value='Economics_Class' name='090'>Economics Class</option>
+							<option domain="l10n" value='Economics' name='091'>Economics</option>
+							<option domain="l10n" value='International_Economics_and_Trade' name='092'>International Economics and Trade</option>
+							<option domain="l10n" value='Business_Administration' name='093'>Business Administration</option>
+							<option domain="l10n" value='Accounting' name='094'>Accounting</option>
+							<option domain="l10n" value='Financial_Management' name='095'>Financial Management</option>
+							<option domain="l10n" value='Finance' name='096'>Finance</option>
+							<option domain="l10n" value='Electronic_Business' name='097'>Electronic Business</option>
+							<option domain="l10n" value='Marketing' name='098'>Marketing</option>
+							<option domain="l10n" value='Management_Class' name='099'>Management Class</option>
+							<option domain="l10n" value='Business_Administration(double_bachelor_degree)' name='09A'>Business Administration(double bachelor degree)</option>
+							<option domain="l10n" value='International_Economics_and_Trade(double_bachelor_degree)' name='09B'>International Economics and Trade(double bachelor degree)</option>
+							<option domain="l10n" value='Human_Resouce_Management' name='09C'>Human Resouce Management</option>
+							<option domain="l10n" value='Insurance' name='09D'>Insurance</option>
+							<option domain="l10n" value='Financial_Engineering' name='09E'>Financial Engineering</option>
+							<option domain="l10n" value='Industrial_Economics' name='09F'>Industrial Economics</option>
+							</select>
+							<!--10 School of Foreign Studies-->
+							<select id='deptAndMajor10' class='inactive' name='deptAndMajor10'>
+							
+							<option domain="l10n" value='Foreign_Language_Class' name='100'>Foreign Language Class</option>
+							<option domain="l10n" value='English' name='101'>English</option>
+							<option domain="l10n" value='Russian' name='102'>Russian</option>
+							<option domain="l10n" value='Japanese' name='103'>Japanese</option>
+							<option domain="l10n" value='French' name='104'>French</option>
+							<option domain="l10n" value='German' name='105'>German</option>
+							<option domain="l10n" value='Spanish' name='106'>Spanish</option>
+							<option domain="l10n" value='English(International_Business_Communication)' name='107'>English(International Business Communication)</option>
+							<option domain="l10n" value='Intensive Training Class of Applied English' name='108'>Intensive Training Class of Applied English</option>
+							<option domain="l10n" value='Korean' name='109'>Korean</option>
+							</select>
+							<!--11 Department of Mathematics-->
+							<select id='deptAndMajor11' class='inactive' name='deptAndMajor11'>
+							
+							<option domain="l10n" value='Mathematics_Class' name='110'>Mathematics Class</option>
+							<option domain="l10n" value='Mathematics_and_Applied_Mathematics' name='111'>Mathematics and Applied Mathematics</option>
+							<option domain="l10n" value='Information_and_Computing_Science' name='112'>Information and Computing Science</option>
+							<option domain="l10n" value='Statistics' name='113'>Statistics</option>
+							<option domain="l10n" value='Application_Module' name='114'>Application Module</option>
+							</select>
+							<!--12 School of Physics-->
+							<select id='deptAndMajor12' class='inactive' name='deptAndMajor12'>
+							
+							<option domain="l10n" value='Physics_Class' name='120'>Physics Class</option>
+							<option domain="l10n" value='Physics' name='121'>Physics</option>
+							<option domain="l10n" value='Applied_Physics' name='122'>Applied Physics</option>
+							<option domain="l10n" value='Physics_Base_Class' name='12A'>Physics Base Class</option>
+							</select>
+							<!--13 School of Chemistry and Chemical Engineering-->
+							<select id='deptAndMajor13' class='inactive' name='deptAndMajor13'>
+							
+							<option domain="l10n" value='Chemistry_Class' name='130'>Chemistry Class</option>
+							<option domain="l10n" value='Chemistry' name='131'>Chemistry</option>
+							<option domain="l10n" value='Applied_Chemistry' name='132'>Applied Chemistry</option>
+							<option domain="l10n" value='Chemistry_Base_Class' name='13A'>Chemistry Base Class</option>
+							</select>
+							<!--14 School of Life Sciences-->
+							<select id='deptAndMajor14' class='inactive' name='deptAndMajor14'>
+							
+							<option domain="l10n" value='Biological_Science_Class' name='140'>Biological Science Class</option>
+							<option domain="l10n" value='Biological_Technology' name='141'>Biological Technology</option>
+							<option domain="l10n" value='Biological_Science' name='142'>Biological Science</option>
+							<option domain="l10n" value='Ecology' name='143'>Ecology</option>
+							<option domain="l10n" value='Biological_Technology(jointly_run_with_CPU)' name='149'>Biological Technology(jointly run with CPU)</option>
+							<option domain="l10n" value='Biological_Science_Base_Class' name='14A'>Biological Science Base Class</option>
+							</select>
+							<!--15 School of Earth Sciences and Engineering-->
+							<select id='deptAndMajor15' class='inactive' name='deptAndMajor15'>
+							
+							<option domain="l10n" value='Earth_Science_Class' name='150'>Earth Science Class</option>
+							<option domain="l10n" value='Geology' name='151'>Geology</option>
+							<option domain="l10n" value='Geochemistry' name='152'>Geochemistry</option>
+							<option domain="l10n" value='Geological_Engineering' name='153'>Geological Engineering</option>
+							<option domain="l10n" value='Hydrology_and_Water_Resources_Engineering' name='154'>Hydrology and Water Resources Engineering</option>
+							<option domain="l10n" value='Information_Resource_and_Computer_Management' name='155'>Information Resource and Computer Management</option>
+							<option domain="l10n" value='Mineralogy,_Petrology_and_Mineral_Deposit_Geology' name='156'>Mineralogy, Petrology and Mineral Deposit Geology</option>
+							<option domain="l10n" value='Paleontology' name='157'>Paleontology</option>
+							<option domain="l10n" value='Groundwater_Science_and_Engineering' name='158'>Groundwater Science and Engineering</option>
+							<option domain="l10n" value='Network_Technology' name='159'>Network Technology</option>
+							<option domain="l10n" value='Earth_Science_Base_Class' name='15A'>Earth Science Base Class</option>
+							<option domain="l10n" value='Geophysical' name='15B'>Geophysical</option>
+							</select>
+							<!--16 School of Geographic and Oceanographic Sciences-->
+							<select id='deptAndMajor16' class='inactive' name='deptAndMajor16'>
+							
+							<option domain="l10n" value='Geography_of_Marine_Science_Class' name='160'>Geography of Marine Science Class</option>
+							<option domain="l10n" value='Resources,_Environment_and_Urban_Planning_Management' name='161'>Resources, Environment and Urban Planning Management</option>
+							<option domain="l10n" value='Geographic_Information_Science' name='162'>Geographic Information Science</option>
+							<option domain="l10n" value='Urban_and_Regional_Planning' name='163'>Urban and Regional Planning</option>
+							<option domain="l10n" value='Geography' name='164'>Geography</option>
+							<option domain="l10n" value='Urban_and_Resource_Science' name='165'>Urban and Resource Science</option>
+							<option domain="l10n" value='Tourism_Management' name='166'>Tourism Management</option>
+							<option domain="l10n" value='Coastal_and_Oceanography_Science' name='167'>Coastal and Oceanography Science</option>
+							<option domain="l10n" value='Geography_Base_Class' name='16A'>Geography Base Class</option>
+							<option domain="l10n" value='Coastal_and_Oceanography_Base_Class' name='16B'>Coastal and Oceanography Base Class</option>
+							</select>
+							<!--17 School of Atmospheric Sciences-->
+							<select id='deptAndMajor17' class='inactive' name='deptAndMajor17'>
+							
+							<option domain="l10n" value='Atmospheric_Science_Class' name='170'>Atmospheric Science Class</option>
+							<option domain="l10n" value='Atmospheric_Science' name='171'>Atmospheric Science</option>
+							<option domain="l10n" value='Applied_Meteorology' name='172'>Applied Meteorology</option>
+							<option domain="l10n" value='Atmospheric_Sciences_Base_Class' name='17A'>Atmospheric Sciences Base Class</option>
+							</select>
+							<!--18 School of Electronic Science and Engineering-->
+							<select id='deptAndMajor18' class='inactive' name='deptAndMajor18'>
+							
+							<option domain="l10n" value='Electronic_Science_Class' name='180'>Electronic Science Class</option>
+							<option domain="l10n" value='Electronic_Information_Science_and_Technology' name='181'>Electronic Information Science and Technology</option>
+							<option domain="l10n" value='Acoustics' name='182'>Acoustics</option>
+							<option domain="l10n" value='Communication_Engineering' name='184'>Communication Engineering</option>
+							<option domain="l10n" value='Biomedical_Engineering' name='186'>Biomedical Engineering</option>
+							</select>
+							<!--19 School of Modern Engineering and Applied Sciences-->
+							<select id='deptAndMajor19' class='inactive' name='deptAndMajor19'>
+							
+							<option domain="l10n" value='Materials_Science_Class' name='190'>Materials Science Class</option>
+							<option domain="l10n" value='Materials_Physics' name='191'>Materials Physics</option>
+							<option domain="l10n" value='Materials_Chemistry' name='192'>Materials Chemistry</option>
+							</select>
+							<!--20 School of the Environment-->
+							<select id='deptAndMajor20' class='inactive' name='deptAndMajor20'>
+							
+							<option domain="l10n" value='Environmental_Science_Class' name='200'>Environmental Science Class</option>
+							<option domain="l10n" value='Environmental_Engineering' name='201'>Environmental Engineering</option>
+							<option domain="l10n" value='Environmental_Sciences' name='202'>Environmental Sciences</option>
+							<option domain="l10n" value='Environmental_Sciences(Environmental_Chemistry)' name='203'>Environmental Sciences(Environmental Chemistry)</option>
+							<option domain="l10n" value='Environmental_Sciences(Environmental_Biology)' name='204'>Environmental Sciences(Environmental Biology)</option>
+							<option domain="l10n" value='Environmental_Sciences(Environmental_Planning_and_Management)' name='205'>Environmental Sciences(Environmental Planning and Management)</option>
+							</select>
+							<!--21 School of Astronomy and Space Sciences-->
+							<select id='deptAndMajor21' class='inactive' name='deptAndMajor21'>
+							
+							<option domain="l10n" value='Astronomy_Class' name='210'>Astronomy Class</option>
+							<option domain="l10n" value='Astronomy' name='211'>Astronomy</option>
+							<option domain="l10n" value='Astronomy Base Class' name='21A'>Astronomy Base Class</option>
+							</select>
+							<!--22 Department of Computer Science and Technology-->
+							<select id='deptAndMajor22' class='inactive' name='deptAndMajor22'>
+							
+							<option domain="l10n" value='Computer_Science' name='220'>Computer Science</option>
+							<option domain="l10n" value='Computer_Science_and_Technology' name='221'>Computer Science and Technology</option>
+							</select>
+							<!--23 Medical School-->
+							<select id='deptAndMajor23' class='inactive' name='deptAndMajor23'>
+							
+							<option domain="l10n" value='Medicine' name='230'>Medicine</option>
+							<option domain="l10n" value='Clinical_Medicine' name='231'>Clinical Medicine</option>
+							<option domain="l10n" value='Stomotology' name='232'>Stomotology</option>
+							<option domain="l10n" value='Clinical_Medicine(General_Hospital_of_Nanjing_Military_Command)' name='233'>Clinical Medicine(General Hospital of Nanjing Military Command)</option>
+							<option domain="l10n" value='Basic_Medicine' name='234'>Basic Medicine</option>
+							</select>
+							<!--24 Kuang Yaming School-->
+							<select id='deptAndMajor24' class='inactive' name='deptAndMajor24'>
+							
+							<option domain="l10n" value='Intensive_Training_Class_of_Applied_Liberal_Arts' name='241'>Intensive Training Class of Applied Liberal Arts</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Science' name='242'>Intensive Training Class of Science</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Science(Mathematics_and_Physics)' name='243'>Intensive Training Class of Science(Mathematics and Physics)</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Science(Biology_and_Chemistry)' name='244'>Intensive Training Class of Science(Biology and Chemistry)</option>
+							<option domain="l10n" value='Talent_Development_Program(Physics)' name='245'>Talent Development Program(Physics)</option>
+							<option domain="l10n" value='Talent_Development_Program(Astronomy)' name='246'>Talent Development Program(Astronomy)</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Science(Atmospheric_Sciences_Base_Class)' name='247'>Intensive Training Class of Science(Atmospheric Sciences Base Class)</option>
+							<option domain="l10n" value='Talent_Development_Program(Chemistry)' name='248'>Talent Development Program(Chemistry)</option>
+							<option domain="l10n" value='Talent_Development_Program(Life_Sciences)' name='249'>Talent Development Program(Life Sciences)</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Science(Earth_Science_Base_Class)' name='24A'>Intensive Training Class of Science(Earth Science Base Class)</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Science(Geography_Base_Class)' name='24B'>Intensive Training Class of Science(Geography Base Class)</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Science(Coastal_and_Oceanography_Base_Class)' name='24C'>Intensive Training Class of Science(Coastal and Oceanography Base Class)</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Science(Architecture_Base_Class)' name='24D'>Intensive Training Class of Science(Architecture Base Class)</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Liberal_Arts(Education_Base_Class)' name='24E'>Intensive Training Class of Liberal Arts(Education Base Class)</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Liberal_Arts(Chinese_Base_Class)' name='24F'>Intensive Training Class of Liberal Arts(Chinese Base Class)</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Liberal_Arts(History_Base_Class)' name='24G'>Intensive Training Class of Liberal Arts(History Base Class)</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Liberal_Arts(Philosophy_Base_Class)' name='24H'>Intensive Training Class of Liberal Arts(Philosophy Base Class)</option>
+							<option domain="l10n" value='Talent_Development_Program(Science)' name='24I'>Talent Development Program(Science)</option>
+							<option domain="l10n" value='Talent_Development_Program(Computer_Science)' name='24J'>Talent Development Program(Computer Science)</option>
+							<option domain="l10n" value='Talent_Development_Program(Mathematics)' name='24K'>Talent Development Program(Mathematics)</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Liberal_Arts(Economics)' name='24L'>Intensive Training Class of Liberal Arts(Economics)</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Liberal_Arts(Finance)' name='24M'>Intensive Training Class of Liberal Arts(Finance)</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Liberal_Arts(International_Economics_and_Trade)' name='24N'>Intensive Training Class of Liberal Arts(International Economics and Trade)</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Liberal_Arts(Business_Administration)' name='24O'>Intensive Training Class of Liberal Arts(Business Administration)</option>
+							<option domain="l10n" value='Intensive_Training_Class_of_Liberal_Arts(Accounting)' name='24P'>Intensive Training Class of Liberal Arts(Accounting)</option>
+							</select>
+							<!--25 School of Software Engineering-->
+							<select id='deptAndMajor25' class='inactive' name='deptAndMajor25'>
+							
+							<option domain="l10n" value='Software_Class' name='250'>Software Class</option>
+							<option domain="l10n" value='Software_Engineering' name='251'>Software Engineering</option>
+							</select>
+							<!--26 Institute of Education-->
+							<select id='deptAndMajor26' class='inactive' name='deptAndMajor26'>
+							
+							<option domain="l10n" value='Education_Technology' name='261'>Education Technology</option>
+							</select>
+							<!--27 School of Management and Engineering-->
+							<select id='deptAndMajor27' class='inactive' name='deptAndMajor27'>
+							
+							<option domain="l10n" value='Management_Sciences_and_Engineering' name='270'>Management Sciences and Engineering</option>
+							<option domain="l10n" value='Automatic_Control_and_System_Engineering' name='271'>Automatic Control and System Engineering</option>
+							<option domain="l10n" value='Industrial_Engineering' name='272'>Industrial Engineering</option>
+							<option domain="l10n" value='Financial_Engineering' name='273'>Financial Engineering</option>
+							<option domain="l10n" value='Information_Engineering' name='274'>Information Engineering</option>
+							<option domain="l10n" value='Electrical_Information' name='279'>Electrical Information</option>
+							</select>
+							<!--28 School of Overseas Education-->
+							<select id='deptAndMajor28' class='inactive' name='deptAndMajor28'>
+							
+							<option domain="l10n" value='Overseas_Education' name='280'>Overseas Education</option>
+							<option domain="l10n" value='Chinese_as_a_Foreign_Language' name='281'>Chinese as a Foreign Language</option>
+							<option domain="l10n" value='Chinese_Language' name='282'>Chinese Language</option>
+							</select>
+							<!--29 School of Architecture and Urban Planning-->
+							<select id='deptAndMajor29' class='inactive' name='deptAndMajor29'>
+							
+							<option domain="l10n" value='Architecture' name='291'>Architecture</option>
+							<option domain="l10n" value='Urban_and_Regional_Planning' name='292'>Urban and Regional Planning</option>
+							<option domain="l10n" value='Architecture_Base_Class' name='29A'>Architecture Base Class</option>
+							</select>
+							<!--31 College-->
+							<select id='deptAndMajor31' class='inactive' name='deptAndMajor31'>
+							
+							<option domain="l10n" value='Secretary' name='311'>Secretary</option>
+							<option domain="l10n" value='Electronic_Technology_and_Computer_Application' name='312'>Electronic Technology and Computer Application</option>
+							<option domain="l10n" value='Law' name='313'>Law</option>
+							<option domain="l10n" value='Business_Administration' name='314'>Business Administration</option>
+							<option domain="l10n" value='International_Trade' name='315'>International Trade</option>
+							<option domain="l10n" value='Economic_Law' name='316'>Economic Law</option>
+							<option domain="l10n" value='Police_Management' name='317'>Police Management</option>
+							<option domain="l10n" value='Criminal_Investigation' name='318'>Criminal Investigation</option>
+							<option domain="l10n" value='Information_Applications' name='319'>Information Applications</option>
+							</select>
+							<!--34 Minor School-->
+							<select id='deptAndMajor34' class='inactive' name='deptAndMajor34'>
+							
+							<option domain="l10n" value='Finance(Minor)' name='341'>Finance(Minor)</option>
+							<option domain="l10n" value='Management(Minor)' name='342'>Management(Minor)</option>
+							<option domain="l10n" value='Law(Minor)' name='343'>Law(Minor)</option>
+							</select>
+							<!--35 Exchange students-->
+							<select id='deptAndMajor35' class='inactive' name='deptAndMajor35'>
+							
+							<option domain="l10n" value='Exchange Students' name='351'>Exchange Students</option>
+							</select>
+							<!--36 General Courses of University-->
+							<select id='deptAndMajor36' class='inactive' name='deptAndMajor36'>
+							
+							<option domain="l10n" value='General_Course' name='361'>General Course</option>
+							</select>
+							<!--37 Cultural Quality Elective Course-->
+							<select id='deptAndMajor37' class='inactive' name='deptAndMajor37'>
+							
+							<option domain="l10n" value='Xianlin_Cultural_Quality_Elective_Course' name='371'>Xianlin Cultural Quality Elective Course</option>
+							<option domain="l10n" value='Gulou_Cultural_Quality_Elective_Course' name='372'>Gulou Cultural Quality Elective Course</option>
+							<option domain="l10n" value='General_Education_Course' name='373'>General Education Course</option>
+							</select>
+							<!--39 Institute for Higher Education-->
+							<select id='deptAndMajor39' class='inactive' name='deptAndMajor39'>
+							
+							<option domain="l10n" value='Higher_Education_Research' name='391'>Higher Education Research</option>
+							</select>
+							<!--41 Department of Applied Foreign Language Studies-->
+							<select id='deptAndMajor41' class='inactive' name='deptAndMajor41'>
+							
+							<option domain="l10n" value='English_Band_1' name='411'>English Band 1</option>
+							<option domain="l10n" value='English_Band_2' name='412'>English Band 2</option>
+							<option domain="l10n" value='English_Band_3' name='413'>English Band 3</option>
+							<option domain="l10n" value='English_Band_4' name='414'>English Band 4</option>
+							<option domain="l10n" value='English_Band_5' name='415'>English Band 5</option>
+							<option domain="l10n" value='English_Band_6' name='416'>English Band 6</option>
+							<option domain="l10n" value='Intensive_English' name='417'>Intensive English</option>
+							</select>
+							<!--58 Leave of Absence or Drop Out-->
+							<select id='deptAndMajor58' class='inactive' name='deptAndMajor58'>
+							
+							<option domain="l10n" value='Drop_Out' name='581'>Drop Out</option>
+							<option domain="l10n" value='Leave_of_Absence' name='582'>Leave of Absence</option>
+							</select>
+							<!--59 School of Jinling-->
+							<select id='deptAndMajor59' class='inactive' name='deptAndMajor59'>
+							
+							<option domain="l10n" value='Computer_Science_and_Technology' name='591'>Computer Science and Technology</option>
+							<option domain="l10n" value='Finance' name='592'>Finance</option>
+							<option domain="l10n" value='Marketing' name='593'>Marketing</option>
+							<option domain="l10n" value='Financial_Management' name='594'>Financial Management</option>
+							<option domain="l10n" value='English' name='595'>English</option>
+							<option domain="l10n" value='Electronic_Information_Science_and_Technology' name='596'>Electronic Information Science and Technology</option>
+							<option domain="l10n" value='Resource_Environment_and_Urban_Planning' name='597'>Resource Environment and Urban Planning</option>
+							<option domain="l10n" value='Geographic_Information_Science' name='598'>Geographic Information Science</option>
+							<option domain="l10n" value='Tourism_Management' name='599'>Tourism Management</option>
+							<option domain="l10n" value='Software_Engineering' name='59A'>Software Engineering</option>
+							<option domain="l10n" value='Communication_Engineering' name='59B'>Communication Engineering</option>
+							<option domain="l10n" value='Chemistry(Modern_Analysis)' name='59C'>Chemistry(Modern Analysis)</option>
+							<option domain="l10n" value='Applied_Chemistry' name='59D'>Applied Chemistry</option>
+							<option domain="l10n" value='Spanish' name='59E'>Spanish</option>
+							<option domain="l10n" value='International_Trade' name='59F'>International Trade</option>
+							<option domain="l10n" value='Information_Management_and_Information_Systems' name='59G'>Information Management and Information Systems</option>
+							<option domain="l10n" value='Communication_Engineering(International_Cooperation_Class)' name='59H'>Communication Engineering(International Cooperation Class)</option>
+							<option domain="l10n" value='Electronic_Engineering(International_Cooperation_Class)' name='59I'>Electronic Engineering(International Cooperation Class)</option>
+							<option domain="l10n" value='Computer_Engineering(International_Cooperation_Class)' name='59J'>Computer Engineering(International Cooperation Class)</option>
+							<option domain="l10n" value='Network_Engineering(International_Cooperation_Class)' name='59K'>Network Engineering(International Cooperation Class)</option>
+							<option domain="l10n" value='Journalism' name='59L'>Journalism</option>
+							<option domain="l10n" value='Advertisement' name='59M'>Advertisement</option>
+							<option domain="l10n" value='Advertising_Art_and_Design' name='59N'>Advertising Art and Design</option>
+							<option domain="l10n" value='Arabic' name='59O'>Arabic</option>
+							<option domain="l10n" value='German' name='59P'>German</option>
+							<option domain="l10n" value='Urban_and_Regional_Planning' name='59Q'>Urban and Regional Planning</option>
+							<option domain="l10n" value='Environmental_Sciences' name='59R'>Environmental Sciences</option>
+							<option domain="l10n" value='Biological_Science' name='59S'>Biological Science</option>
+							<option domain="l10n" value='Urban_Environmental_Geotechnical_Engineering' name='59T'>Urban Environmental Geotechnical Engineering</option>
+							<option domain="l10n" value='Advertising_Art(II)' name='59Z'>Advertising Art(II)</option>
+							</select>
+							<!--60 Graduate School-->
+							<select id='deptAndMajor60' class='inactive' name='deptAndMajor60'>
+							
+							<option domain="l10n" value='Department_of_Philosophy' name='Y010101'>Department of Philosophy</option>
+							<option domain="l10n" value='School_of_Business' name='Y020101'>School of Business</option>
+							<option domain="l10n" value='School_of_Law' name='Y030103'>School of Law</option>
+							<option domain="l10n" value='School_of_Public_Administration' name='Y030201'>School of Public Administration</option>
+							<option domain="l10n" value='Department_of_Sociology' name='Y030301'>Department of Sociology</option>
+							<option domain="l10n" value='Department_of_Chinese' name='Y050101'>Department of Chinese</option>
+							<option domain="l10n" value='Department_of_Journalism' name='Y050301'>Department of Journalism</option>
+							<option domain="l10n" value='Department_of_History' name='Y060101'>Department of History</option>
+							<option domain="l10n" value='School_of_Chemistry' name='Y070301'>School of Chemistry</option>
+							<option domain="l10n" value='Institute_of_Geography_and_Ocean' name='Y070501'>Institute of Geography and Ocean</option>
+							<option domain="l10n" value='Department_of_Atmospheric_Science' name='Y070601'>Department of Atmospheric Science</option>
+							<option domain="l10n" value='Department_of_Astronomy' name='Y070701'>Department of Astronomy</option>
+							<option domain="l10n" value='Department_of_Earth_Science' name='Y070901'>Department of Earth Science</option>
+							<option domain="l10n" value='Department_of_Physics' name='Y071001'>Department of Physics</option>
+							<option domain="l10n" value='School_of_Life_Sciences' name='Y071010'>School of Life Sciences</option>
+							<option domain="l10n" value='Medical_School' name='Y073501'>Medical School</option>
+							<option domain="l10n" value='Department_of_Materials' name='Y080501'>Department of Materials</option>
+							<option domain="l10n" value='Department_of_Mathematics' name='Y080601'>Department of Mathematics</option>
+							<option domain="l10n" value='Department_of_Electronic_Science_and_Engineering' name='Y081001'>Department of Electronic Science and Engineering</option>
+							<option domain="l10n" value='Department_of_Computer_Science_and_Technology' name='Y081202'>Department of Computer Science and Technology</option>
+							<option domain="l10n" value='School_of_the_Environment' name='Y083001'>School of the Environment</option>
+							<option domain="l10n" value='11' name='Y090502'>11</option>
+							<option domain="l10n" value='Information_Management' name='Y120501'>Information Management</option>
+							<option domain="l10n" value='School_of_Management_and_Engineering' name='Y121001'>School of Management and Engineering</option>
+							<option domain="l10n" value='Public_Courses' name='Y980201'>Public Courses</option></select>
+							<!--61 Employment and Entrepreneurship Courses-->
+							<select id='deptAndMajor61' class='inactive' name='deptAndMajor61'>
+							
+							<option domain="l10n" value='Employment_and_Entrepreneurship_Courses' name='610'>Employment and Entrepreneurship Courses</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="td0" domain="l10n">Dorm room:</td>
+						<td class="td2"><input type="text" id="userInfoDormEdit" name="dorm" /></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div id="userInfoSpecificEditAllPage2" class="specificInfo">
+		<div id="userInfoSpecificEdit3" class="editWrapper">
+			<div id = "userInfoEditTitlePane">
+				<h3 domain="l10n">Interests Info</h3>
+				<span>
+					<a class="saveBtn" name="3" domain="l10n">Save</a>
+					<a class="cancelBtn" name="3" domain="l10n">Cancel</a>
+				</span>
+			</div>
+			<div>
+				<table class='edit-box-table'>
+					<tr><td class="td0" domain="l10n">Interests:</td>
+						<td class="td2"><input 	type="text" id="userInfoHobbyEdit" name="hobby" /></td></tr>
+					<tr><td class="td0" domain="l10n">Musics:</td>
+						<td class="td2"><input 	type="text" id="userInfoMusicEdit"	  name="music" /></td></tr>
+					<tr><td class="td0" domain="l10n">Movies:</td>
+						<td class="td2"><input 	type="text" id="userInfoFilmEdit"	  name="film" /></td></tr>
+					<tr><td class="td0" domain="l10n">Sports:</td>
+						<td class="td2"><input 	type="text" id="userInfoSportEdit"	  name="sport" /></td></tr>
+					<tr><td class="td0" domain="l10n">Books:</td>
+						<td class="td2"><input 	type="text" id="userInfoBookEdit"	  name="book" /></td></tr>
+				</table>
+			</div>
+		</div>
+		<div id="userInfoSpecificEdit4" class="editWrapper">
+			<div id = "userInfoEditTitlePane">
+				<h3 domain="l10n">Contact Info</h3>
+				<span>
+					<a class="saveBtn" name="4" domain="l10n">Save</a>
+					<a class="cancelBtn" name="4" domain="l10n">Cancel</a>
+				</span>
+			</div>
+			<div>
+				<table class='edit-box-table'>
+					<tr><td class="td0" domain="l10n">Email:</td>
+						<td class="td2"><input 		type="text" id="userInfoEmailEdit"	  name="email" /></td></tr>
+					<tr><td class="td0" domain="l10n">QQ:</td>
+						<td class="td2"><input 		type="text" id="userInfoQqEdit"		  name="qq" /></td></tr>
+					<tr><td class="td0" domain="l10n">MSN:</td>
+						<td class="td2"><input 		type="text" id="userInfoMsnEdit"	  name="msn" /></td></tr>
+					<tr><td class="td0" domain="l10n">Phone:</td>
+						<td class="td2"><input 	type="text" id="userInfoPhoneEdit"	  name="phone" /></td></tr>
+				</table>
+			</div>
+		</div>
+  </div>	
+  <div id="pageControl">
+		<a id='pagePrev'  domain="l10n"><前页</a> &nbsp;&nbsp;&nbsp;
+		<label id='userInfoPage' class="pageNo">1/2</label> &nbsp;&nbsp;&nbsp;
+		<a id='pageNext' domain="l10n">后页></a>
+  </div>
+</div>
+

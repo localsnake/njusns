@@ -1,0 +1,20 @@
+﻿@charset "utf-8";
+/*一条学生信息*/
+.courseStudentLi{
+	font-family: Tahoma,"微软雅黑",Times,serif;
+	border: 2px solid #dde3ec;
+	height: 85px;
+	font-size: 14px;
+	color:#454545;
+	width:400px;
+	display:inline-block;
+	margin-left:5px;
+}
+/*学生基本信息*/
+.studentInfoDiv {
+	float: left;
+	padding-left:20px;
+	width: 250px;
+	word-wrap: normal;
+	margin: 15px 0px 0px 5px;
+}

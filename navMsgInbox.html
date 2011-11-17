@@ -1,0 +1,81 @@
+﻿<link rel="stylesheet"  type="text/css" href="css/navMsg.css" />
+<script src="scripts/navMsgInbox.js" type="text/javascript"></script> 
+<div class="msgModuleDiv">
+<div id="inboxWrapper">
+	<table id="inboxTable" class="listStyleTable msgTable">
+		
+	</table>
+	<br /><br />
+	<div class='seperatorHr'></div>
+	<div class="funcDiv">
+		<div id="deleteMsg" style="display:block; width:100px; height:26px; line-height:26px;float:left;">
+			<a class="courseDelete fancyBoxIcon"></a>
+			<a class="fancyBoxWord" domain="l10n">Delete</a>
+		</div>
+		<div id="newMsg" style="display:line-block; width:100px; height:26px; line-height:26px; float:right;">
+				<a class="addIcon fancyBoxIcon"></a>
+				<a class="fancyBoxWord" domain="l10n">Compose</a>
+		</div>
+		<div class="pageDiv">
+			<a id='msgPagePrev' ><前页</a>	&nbsp;&nbsp;&nbsp;
+			<label id='page' class = 'pageNo'></label>&nbsp;&nbsp;&nbsp;
+			<a class="msgPageNext" id='msgPageNext' >后页></a>
+		</div>
+	</div>
+	<!--<div>
+		<a id='msgPagePrev' domain="l10n" class = 'pagePrev' ><上页</a>
+		<label id='page' class = 'pageNo'></label>
+		<a id='msgPageNext' domain="l10n" class = 'pageNext' >下页></a>
+	</div>
+	<div class="funcDiv">
+		<div id="deleteMsg" class="courseDelete" style="display:block; width:140px; height:26px; float:left;">
+			<a class="iconWord" domain="l10n">Delete</a>
+		</div>
+		<div id="newMsg" class="addIcon" style="display:block; width:140px; height:26px; float:right;">
+			<a class="iconWord" domain="l10n">Compose</a>
+		</div>
+	</div>-->
+</div>
+
+<div id="groupWrapper" style="display:none;">
+	<div id="mailGroupToolBar"> 
+		<div id="msgToolBar">
+			<label id='mailGroupTitle'></label>
+			<a id="mailDelete" domain="l10n" class="courseDelete" title='Delete'></a>
+		</div>
+	</div>
+	<div class='seperatorHr'></div>
+	<div id="mailGroupInfo">
+		
+	</div>
+	<div id="mailGroupReply">
+		<div id="quickReply"> 
+			<div>
+				<label class="msgReplyLabel" for="msgQuickReplyContent" domain="l10n">快捷回复</label> >
+				<a id="fullEdition">转至完整版</a>
+			</div>
+			<div>
+					<textarea id='msgQuickReplyContent' name="notice_content" ></textarea><br />
+					<div class="buttonDiv">
+						<button id="replyQuickMailBtn" class="sendBtn button">回复</button>
+						<button id="replyQuickBckBtn" class="bckBtn button" >返回</button>
+					</div>
+			</div>
+		</div>
+		
+		<div id="fullReply" style="display:none;">
+			<div class="msgTitleDiv">
+				<label class="msgReplyLabel" for="msgQuickReplyContent" domain="l10n">完整回复</label> >
+				<a id="quickEdition">转至快捷版</a>
+			</div>
+			<div id="releaseId">
+				<textarea id="mailReplyContent" name="content" cols="30" rows="10"></textarea>
+			</div>
+			<div class="buttonDiv">
+					<button id="replyMailBtn" class="sendBtn button" >回复</button>
+					<button id="replyBckBtn" class="bckBtn button" >返回</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div>

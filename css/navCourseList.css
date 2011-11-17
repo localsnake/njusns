@@ -1,0 +1,93 @@
+﻿@charset "utf-8";
+/* The table style */
+#listSyllabus {
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	font-size:15px;
+	top:30px;
+}
+#listSyllabus table {
+	background-color:#f1f1f2;
+	text-align: center;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border:1px solid #ababac;
+	color: #454545;	
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+#listSyllabus td, #listSyllabus th {
+	height:35px;
+	text-align: center;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border:1px dotted #ababac;		
+	font-size:15px;
+} 
+#listSyllabus .tableInfo {
+	width:100px;
+}
+/* Desperate In the future */
+#listSyllabus .tableOperation {
+	width:200px;
+}
+#listSyllabus th  {
+	background: url('../images/editionTitle_bg.png') repeat-x;
+	height:31px;
+	font-family:"Microsoft Yahei",Times, serif;
+	font-size:15px;
+	color:#0d5689;
+	font-weight:bold;
+}
+#listSyllabus a:link {
+	color: #173660;
+	text-decoration: none;
+}
+#listSyllabus a:hover, a:active {
+	text-decoration: underline;
+}
+.courseOpDiv{
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+/* 课程操作的图标 */
+.courseEnterCourse,.courseUnMount,.courseMount,.courseExitCourse,
+.courseExitCourse:hover,.courseEnterCourse:hover, .courseMount:hover,.courseUnMount:hover{
+	background: url('../images/course_operation.png') no-repeat;
+}
+.courseEnterCourse {
+	width:45px; 
+	height:26px;
+	position:relative;
+	display:inline-block;
+	background-position: 0px 0px;
+} 
+.courseMount { 
+	width:30px;
+	height:26px;
+	display:inline-block;
+	position:relative;
+	background-position: 0px -72px;
+} 
+.courseUnMount{ 
+	width:30px; 
+	height:26px;
+	display:inline-block;
+	position:relative;
+	background-position: 0px -144px;
+}
+.courseExitCourse {
+	width:45px;
+	height:26px;
+	display:inline-block;
+	position:relative;
+	background-position: 0px -216px;
+}
+.courseEnterCourse:hover { background-position: 0px -36px; }
+.courseMount:hover {background-position: 0px -108px;}
+.courseUnMount:hover { background-position: 0px -180px;}
+.courseExitCourse:hover { background-position: 0px -252px;}
+

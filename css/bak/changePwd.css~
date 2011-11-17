@@ -1,0 +1,23 @@
+﻿#changePwdOk{	
+	position:relative;
+	width:87px;	
+	height:32px;
+		border:5px solid #0e4b72;
+
+}
+
+#changePwdReset{	 
+	position:relative;	
+	width:56px;
+	height:32px;
+}
+#changePwdOk:active,#changePwdReset:active{top:1px; }
+#inputPane{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:700px;
+}
+.column_1 .type{
+	margin-left:60px;
+}

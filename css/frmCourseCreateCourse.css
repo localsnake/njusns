@@ -1,0 +1,130 @@
+/*创建课程的fancy box*/
+#fancyBoxWrapper{
+	overflow:hidden;
+	width:800px;
+	height:350px;
+	margin:0px;
+	background:#e2e2e4;
+	background-image:-moz-radial-gradient(center 22deg, circle closest-corner, #e6e9eb, #b1bcc3);
+	background-image:-webkit-gradient(radial, 450 205, 180, 450 205, 450,from(#e6e9eb),to(#b1bcc3));	
+}
+#courseCreateCourse{
+	margin-top:25px;
+	height:350px;
+	width:800px;
+}
+#courseCreateCourse strong{
+	font-weight:normal;
+}
+/*Table design*/
+.designedTable{
+	margin:0px;
+	width:370px;
+}
+.designedTable td{
+	background:transparent;
+	border:0px solid black;
+	padding-bottom:12px;
+	font-size:14px;
+	font-weight:normal;
+	color:#041e31;
+	font-family:"Microsoft YaHei",
+			微软雅黑,
+			"Microsoft JhengHei",
+			华文细黑,
+			STHeiti,
+			MingLiu;
+}
+.designedTable tr td input{
+	width:230px;
+	background:white;
+}
+.designedTable tr td select{
+	width:59px;
+}
+#courseVerify{
+	width:230px;
+	background-image:url("../images/intro_textlong.png") no-repeat;
+}
+#courseTerm{
+	width:230px;
+	background-image:url("../images/intro_textlong.png") no-repeat;
+}
+#courseType{
+	width:230px;
+	background-image:url("../images/intro_textlong.png") no-repeat;
+}
+/*left table position*/
+#tableLeft{
+	float:left;
+	margin-left:75px;
+	left:55px;
+	top:25px;
+	display:inline-block;
+	width:350px;
+}
+/*right table*/
+#tableRight{
+	float:right;
+	left:65px;
+	height:350px;	
+	width:350px;
+	display:inline-block;
+}
+#tableRight .designedTable{
+	margin-left:44px;
+}
+#tableRight .designedTable td{
+	padding-bottom:10px;
+}
+#courseIntroArea{
+	position:relative;
+	left:46px;
+	height:300px;
+}
+#courseIntroArea strong{
+	position:relative;
+	font-size:14px;
+	font-weight:normal;
+	color:#041e31;
+	font-family:"Microsoft YaHei",
+			微软雅黑,
+			"Microsoft JhengHei",
+			华文细黑,
+			STHeiti,
+			MingLiu;
+}
+#courseIntro{
+	border:0px solid white;
+	background:transparent;
+	width:346px;
+	height:182px;
+	padding:0px;
+	resize:none;
+}
+#textareaWrapper{
+	position:relative;
+	top:10px;
+	background:url("../images/intro_frame.png") no-repeat;
+	width:346px;
+	height:241px;
+}
+#createBtn{
+	cursor:pointer;
+	position:relative;
+	border:0px solid black;
+	left:219px;
+	top:12px;
+	width:94px;
+	height:94px;
+	display:block;
+	background: url('../images/intro_okbutton.png') no-repeat;
+}
+#createBtn:hover{
+	background: url('../images/intro_okbutton.png') no-repeat;
+}
+#createBtn:active {
+	background: url('../images/intro_okbutton_down.png') no-repeat;
+}
+#errorEcho{
+}

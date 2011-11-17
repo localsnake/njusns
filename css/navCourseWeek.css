@@ -1,0 +1,51 @@
+﻿@charset "utf-8";
+#weekSyllabus {
+	position:absolute;
+	top:40px;
+	left:60px;
+}
+#weekSyllabus  td, th {
+	height:35px;
+	text-align: center;
+	table-layout: fixed;
+	border-collapse: collapse;
+	width: 100px;
+	border:1px dotted #ababac;		
+} 
+#weekSyllabus table {
+	background-color:#f1f1f2;
+	text-align: center;
+	table-layout: fixed;
+	border-collapse: collapse;
+	width: 90px;
+	border:1px solid #ababac;
+	color: #454545;	
+}
+#weekSyllabus a:link {
+	text-decoration: underline;
+	color: #454545;	
+}
+#weekSyllabus a:hover, a:active {
+	text-decoration: underline;
+	/*font-size:14px;*/
+}
+#weekSyllabus th  {	  
+	background: url('../images/editionTitle_bg.png') repeat-x;
+	height:31px;
+	font-family:"Microsoft Yahei";
+	font-size:15px;
+	color:#0d5689;
+	font-weight:normal;
+}
+
+.courseNum {
+	font-size:16px;
+}
+
+#noonBreak td{
+	
+	border:0px solid #ababac;
+}
+#tr-5 {
+	border-top:1px solid #ababac;
+}

@@ -1,0 +1,260 @@
+﻿<link rel="stylesheet" href="css/navCourseIntro.css?" />	
+<script src="scripts/navCourseIntro.js" type="text/javascript"></script> 
+<div id="wrapper">
+  <!-- 大小头 -->
+  <img id='imgLarge' alt="课程头像"></img>
+  <!--<img id='imgSmall'></img>-->
+  <div id="editPane">
+        <hr class="short_separator" />
+  	<a id='coursePhotoEdit' title='上传新头像' domain="l10n">Change Profile Picture</a>
+        <hr class="short_separator" />
+	<a id='courseIntroEdit' title='编辑' domain="l10n">Edit Info</a>
+        <hr class="short_separator" />
+  </div>
+  <!-- 系统提示 -->
+  <div id="courseIntroSysInfo">
+		<a></a>
+		<label id="courseIntroSysInfoLabel"></label>
+  </div>
+ 
+  <!-- 详细资料给人看版 -->  
+  <div id="courseIntroSpecificShowAll">
+		<!--<div><a id="courseIntroEdit" title="编辑"  >编辑</a></div>-->
+		<div id="courseIntroSpecificShow">
+			<h3 domain="l10n">Course Info</h3>
+			<div class="bg_line"></div>
+			<div id="table">
+				<table class='courseInfoTable'>
+					<tr><td class='typeInfo' scope="row" domain="l10n">Course Name:</td>
+						<td class='labelInfo'><label id="courseIntroName" name="name"></label></td>
+					</tr>
+					<tr><td class='typeInfo' scope="row" domain="l10n">Category:</td>
+						<td class='labelInfo'><label id="courseIntroType"   name="type"></label></td>
+					</tr>
+					<tr><td class='typeInfo' scope="row" domain="l10n">Course Term:</td>
+						<td class='labelInfo'><label id="courseIntroTerm" name="name"></label></td>
+					</tr>
+					<tr><td class='typeInfo' scope="row" domain="l10n">Time:</td>
+						<td class='labelInfo'><label id="courseIntroTime"	 name="time"></label></td>						
+					</tr>
+					<tr><td class='typeInfo' scope="row" domain="l10n">Classroom:</td>
+						<td class='labelInfo'><label id="courseIntroPlace"	 name="place"></label></td>						
+					</tr>
+					<tr><td class='typeInfo' scope="row" domain="l10n">Num Of Students:</td>
+						<td class='labelInfo'><label id="courseIntroNumber" name="number"></label></td>						
+					</tr>
+					<tr><td class='typeInfo' scope="row" domain="l10n">Textbook:</td>
+						<td class='labelInfo'><label id="courseIntroBook"   name="book"></label></td>						
+					</tr>
+					<tr><td class='typeInfo' scope="row" domain="l10n">Need Approval:</td>
+						<td class='labelInfo'>
+							<label id="courseVerify"   name="verify" style="display:none;"></label>
+							<label id="courseVerifyNotes"></label>
+						</td>						
+					</tr>
+					<tr style="display:none;"><td class='typeInfo' scope="row" domain="l10n">Course Password:</td>
+						<td class='labelInfo'><label id="coursePassword"   name="verify"></label></td>						
+					</tr>
+					<tr><td class='typeInfo' scope="row" domain="l10n">Link:</td>
+						 <td class='labelInfo'><a id="courseUrlLink" name="course_url" target="_blank"></a></td>	
+					</tr>
+					<tr><td class='typeInfo' scope="row" domain="l10n">Course Intro:</td>
+						<td class='labelInfo'><label id="courseIntroIntro"  name="intro"></label></td>						
+					</tr>
+				</table>
+			</div>
+			<div class="bg_line"></div>
+			<br />
+			<h3 domain="l10n">Instructor Info</h3>
+			<table class='courseInfoTable'>
+				<tr><td class='typeInfo' scope="row" domain="l10n">Instructor:</td>
+					<td class='labelInfo'><label id="courseTeacherName"></label></td>
+				</tr>
+				<tr><td class='typeInfo' scope="row" domain="l10n">Assistant:</td>
+					<td class='labelInfo'><label id="courseTAName"></label>&nbsp;&nbsp; 
+						<label><a domain="l10n" id="setTALink" style="display:none">Set Assistant</a></label></td>
+				</tr>
+			</table>
+		</div>
+  </div>
+
+  <!-- 详细资料编辑版 -->  
+  <div id="courseIntroSpecificEditAll">
+	<!-- 保存/取消的链接/按钮 -->
+
+		<div id="courseIntroSpecificEdit" class="editWrapper">
+			<div id = "userInfoEditTitlePane">
+				<h3 domain="l10n">课程信息</h3>
+				<span>
+					<a id="courseIntroSave"   title="保存" domain="l10n">Save</a>
+					<a id="courseIntroCancel" title="取消" domain="l10n">Cancel</a>
+				</span>
+			</div>
+			<!--<h3><a  >基本信息</a></h3>-->
+			<div>
+				<!--<table style="table-layout:fixed;">-->
+				<table id='edit-box-table'>
+					<tr>
+						<td class="td1" domain="l10n">Course Name:</td>
+						<td><input 	id="courseIntroNameEdit" name="name"></input></td>
+					</tr>
+					<tr>
+						<td class="td1" domain="l10n">Category:</td>
+						<td><select id="courseIntroTypeEdit" name="type">
+							<!--<option value="">请选择</option>-->
+							<option value="通修">通修</option>		<option value="核心">核心</option>
+							<option value="专业选修">专业选修</option>		<option value="副修">副修</option>
+							<option value="选修-艺术">选修-艺术</option>		<option value="选修-文科">选修-文科</option>	
+							<option value="选修-理科">选修-理科</option>		<option value="选修-公选">选修-公选</option>
+							<option value="其他">其他</option>
+						</select>
+						</td>
+					</tr>
+					
+					<tr><td class='td1' scope="row" domain="l10n">Course Term:</td>
+						<td>
+							<select id="courseIntroTermEdit" name="term">
+								<option value="Fall 2011">Fall 2011</option>
+								<option value="Spring 2012">Spring 2012</option>
+								<option value="Summer 2012">Summer 2012</option>
+								<option value="Fall 2012">Fall 2012</option>
+								<option value="Spring 2013">Spring 2013</option>
+								<option value="Summer 2013">Summer 2013</option>
+								<option value="Fall 2013">Fall 2013</option>
+							</select>
+						</td>
+					</tr>
+					
+					<!--<tr><td>上课时间:</td><td><input 	id="courseIntroTimeEdit"	  name="time"></input> </td></tr>-->
+					<tr><td class="td1" domain="l10n">Time1(Optional):</td>
+						<td>周
+							<select name="timeWeek1" id="timeWeek1">
+								<option value="--">--</option>
+								<option value="1">一</option>
+								<option value="2">二</option>
+								<option value="3">三</option>
+								<option value="4">四</option>
+								<option value="5">五</option>
+								<option value="6">六</option>
+								<option value="7">日</option>
+							</select>
+						第
+							<select name="timeBegin1" id="timeBegin1">
+								<option value="--">--</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+						-
+							<select name="timeEnd1" id="timeEnd1">
+								<option value="--">--</option>
+							</select>节
+						</td>
+					</tr>
+					<tr>
+						<td class="td1" domain="l10n">Time2(Optional):</td>
+						<td>周 
+							<select name="timeWeek2" id="timeWeek2">
+								<option value="--">--</option>
+								<option value="1">一</option>
+								<option value="2">二</option>
+								<option value="3">三</option>
+								<option value="4">四</option>
+								<option value="5">五</option>
+								<option value="6">六</option>
+								<option value="7">日</option>
+								<option value="日">日</option>
+							</select>
+						第
+							<select name="timeBegin2" id="timeBegin2">
+								<option value="--">--</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+						-
+							<select name="timeEnd2" id="timeEnd2">
+								<option value="--">--</option>
+							</select>节
+						</td>
+					</tr>
+					<tr>
+						<td class="td1" domain="l10n">Time3(Optional):</td>
+						<td>周 
+							<select name="timeWeek3" id="timeWeek3">
+								<option value="--">--</option>
+								<option value="1">一</option>
+								<option value="2">二</option>
+								<option value="3">三</option>
+								<option value="4">四</option>
+								<option value="5">五</option>
+								<option value="6">六</option>
+								<option value="7">日</option>
+							</select>
+						第
+							<select name="timeBegin3" id="timeBegin3">
+								<option value="--">--</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+						-
+							<select name="timeEnd3" id="timeEnd3">
+								<option value="--">--</option>
+							</select>节
+						</td>
+					</tr>
+						
+					<tr><td class="td1" domain="l10n">Classroom:</td>
+						<td><input 	id="courseIntroPlaceEdit"	  name="place"></input></td></tr>
+					<tr><td class="td1" domain="l10n">Num Of Students:</td>
+						<td><input 	id="courseIntroNumberEdit" name="number"></input></td></tr>
+					<tr><td class="td1" domain="l10n">Textbook:</td>
+						<td><input 	id="courseIntroBookEdit" name="book"></input></td></tr>
+					<tr><td class="td1"  domain="l10n">Link:</td>
+						<td><input 	id="courseIntroUrlEdit" name="book"></input></td>
+					</tr>	
+					<tr>
+						<td class="td1" domain="l10n">Need Approval:</td>
+						<td><select id="courseVerifyEdit" name="type">
+							<!--<option value="">请选择</option>-->
+							<option value="C">密码认证</option>
+							<option value="N">无需认证</option>
+							<option value="Y">手动确认</option>
+						</select>
+					</td></tr>
+						
+					<tr id="codeTr" style="display:none;">
+						<td class='td1' scope="row" domain="l10n">Verify Code:</td>
+						<td><input type="text" id="coursePasswordEdit" name="password"/></td>
+					</tr>
+					
+					<tr><td class="td1" domain="l10n">Course Intro:</td>
+						<td style="width:200px;"><textarea id="courseIntroIntroEdit" style="height:150px;" name="intro" ></textarea></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+  </div>
+</div>

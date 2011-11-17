@@ -1,0 +1,181 @@
+﻿@charset "utf-8";
+#wrapper{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:93%;
+}
+#courseIntroSysInfo{
+	position: relative;
+	top: 39px;
+	left: 11px;
+}
+#courseIntroSysInfoLabel{
+	position: relative;
+	left: 42px;
+	top: -29px;
+}
+#imgLarge {
+	position:relative;
+	width:200px;
+	top:20px;
+	display:block;
+}
+#editPane{
+	position:relative;
+	left:10px;
+	top:35px;
+}
+#coursePhotoEdit {
+	position:relative;
+	display:none;
+	left:13px;
+}
+#courseIntroEdit {
+	position:relative;
+	display:none;
+	left:13px;
+}
+.short_separator{	
+	position:relative;
+	margin-left:5px;
+	width:158px;
+	height:0px;
+	margin-top:4px;
+	margin-bottom:4px;
+	border-top:1px solid #a5a5a5;
+}
+
+/*right area*/
+#courseIntroSpecificShowAll {
+	position:absolute;
+	top:20px;
+	left:245px;
+	font-size: 16px;
+	width: 429px;
+
+}
+#courseIntroSpecificEditAll {	display: none;	}
+h3{
+	position:relative;
+	font-size:16px;
+	font-weight:normal;
+	color:#2c7db5;
+	width:10em;
+	z-index:1;
+	margin-top:0px;
+	height:15px;
+	font-family:"Microsoft YaHei",'微软雅黑',"Microsoft JhengHei",STHeiti,MingLiu;
+}
+
+.courseInfoTable{
+	margin:10px;
+	table-layout: fixed;
+	border-collapse: collapse;
+	text-align: left;
+	height:30px;
+}
+
+.courseInfoTable tr td{
+	background:white;
+	font-weight:bold;
+	font-size:15px;
+	height:30px;
+	color:#2c7db5;
+	font-family:"Microsoft YaHei",'微软雅黑',"Microsoft JhengHei",STHeiti,MingLiu;
+	width: 500px;
+}
+.courseInfoTable .typeInfo{  width:220px; }
+.courseInfoTable .labelInfo{ width:460px; }
+.courseInfoTable tr td label{
+	font-size:15px;
+	color:#454545;
+	font-weight:normal;
+	font-family:"Microsoft YaHei",'微软雅黑',"Microsoft JhengHei",STHeiti,MingLiu;
+}
+/*separator line*/
+.bg_line{
+	position:relative;
+	height:1px;
+	width:400px;
+	background:url("../images/borderline.png") repeat-x;
+}
+/*adjust position*/
+#table{
+	position:relative;
+	left:-8px;
+}
+#courseIntroSpecificEditAll {
+	position:absolute;
+	top:20px;
+	left:250px;
+}
+
+#userInfoEditTitlePane {
+	border:1px solid #257fae;
+	height:33px;
+	width: 584px;
+	background: url('../images/editionTitle_bg.png') repeat-x;
+}
+
+#userInfoEditTitlePane  span{
+	position:relative;
+	left:505px;
+	top: -25px;
+	z-index:999;
+}
+#userInfoEditTitlePane a {
+	cursor:pointer;
+}
+
+#userInfoEditTitlePane h3{
+	position:relative;
+	top:5px;
+	left:25px;
+	font-size:16px;
+	font-style:bold;
+	color:#0d5689;
+}
+
+#userInfoShowTitlePane{
+	position:relative;
+	top:0;
+	width:584px;
+	height:33px;
+}
+#userInfoShowTitlePane a{
+	position:relative;
+	top:-30px;
+	left:535px;
+	cursor:pointer;
+}
+
+#edit-box-table {
+	height:394px;
+	width:586px;
+	background-color:#f1f1f2;
+	border:1px solid #ababac;
+	color:#333333;
+	font-size:15px;
+	font-style:bold;
+}
+#edit-box-table input{
+	border: 1px solid #abadb3;
+}
+.td1 {
+	width:70px;
+	padding-left:13px;
+}
+#courseUrlLink {font-weight:normal;}
+/*others*/
+a.sendUserApply, a.sendUserApply:hover,a.hasBeenFriend,a.waitForAnswer,a.manageCourse {
+	background:url('../images/icons.png') no-repeat;
+	width:31px;
+	height:31px;
+	display: block;
+}
+a.sendUserApply{		background-position: -108px 0px;	}
+a.sendUserApply:hover{	background-position: -72px 0px;		}
+a.hasBeenFriend {		background-position: -396px 0px;	}
+a.waitForAnswer {		background-position: -144px 0px;	}
+a.manageCourse {		background-position: -432px 0px;	}

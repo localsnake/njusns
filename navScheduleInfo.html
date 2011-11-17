@@ -1,0 +1,70 @@
+<link rel="stylesheet" href="codebase/dhtmlxscheduler.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="codebase/ext/dhtmlxscheduler_ext.css" type="text/css" title="no title" charset="utf-8">
+<script src="codebase/dhtmlxscheduler.js" type="text/javascript" charset="utf-8"></script>
+<script src="codebase/ext/dhtmlxscheduler_serialize.js" type="text/javascript" charset="utf-8"></script>
+<script src="codebase/ext/dhtmlxscheduler_agenda_view.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="scripts/init_calendar.js" type="text/javascript"></script> 
+<script src="codebase/ext/dhtmlxscheduler_readonly.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="codebase/ext/dhtmlxscheduler_ext.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+<style type="text/css" media="screen">
+    /*event in day or week view*/
+	.dhx_cal_event.past_event div{
+		background-color:gray !important; 
+		color:white !important;
+	}
+    /*multi-day event in month view*/
+	.dhx_cal_event_line.past_event{
+		background-color:gray !important; 
+		color:white !important;
+	}	
+
+    /*event with fixed time, in month view*/
+	.dhx_cal_event_clear.past_event{
+		color:gray !important;
+	}
+	
+	
+	/*event in day or week view*/
+	.dhx_cal_event.course_event div{		
+		background-color:#e47070 !important; 
+		color:white !important;		
+	}
+	
+    /*multi-day event in month view*/
+	.dhx_cal_event_line.course_event{
+		background-color:#e47070 !important; 
+		color:white !important;
+	}	
+
+    /*event with fixed time, in month view*/
+	.dhx_cal_event_clear.course_event{
+		color:#e47070 !important;
+	}
+	#scheduler_here {
+		width:940px; 
+		height:100%;
+		position:absolute; 
+		z-index:1;
+		top:0;
+		left:0;
+	}
+</style>
+<div id="scheduler_here" class="dhx_cal_container">
+	<div class="dhx_cal_navline">
+		<div class="dhx_cal_prev_button">&nbsp;</div>
+		<div class="dhx_cal_next_button">&nbsp;</div>
+		<div class="dhx_cal_today_button"></div>
+		<div class="dhx_cal_date"></div>
+		<div class="dhx_minical_icon" id="dhx_minical_icon" onclick="show_minical()">&nbsp;</div>
+		<!-- <div class="dhx_cal_tab" name="day_tab" style="right:204px;"></div> -->
+		<div class="dhx_cal_tab" name="week_tab" style="right:140px;"></div>
+		<div class="dhx_cal_tab" name="month_tab" style="right:76px;"></div>
+		<div class="dhx_cal_tab" name="agenda_tab" style="right:204px;"></div>
+	</div>
+	<div class="dhx_cal_header">
+	</div>
+	<div class="dhx_cal_data">
+	</div>
+</div>

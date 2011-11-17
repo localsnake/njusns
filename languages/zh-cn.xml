@@ -1,0 +1,1742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+	<!--注册页面-->
+	<message>
+		<msgid><![CDATA[E-Mail:]]></msgid>
+		<msgstr><![CDATA[注册邮箱:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Password:]]></msgid>
+		<msgstr><![CDATA[登录密码:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Retype:]]></msgid>
+		<msgstr><![CDATA[重复密码:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Real Name:]]></msgid>
+		<msgstr><![CDATA[真实姓名:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Gender:]]></msgid>
+		<msgstr><![CDATA[性别:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Birthday:]]></msgid>
+		<msgstr><![CDATA[生日:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Year]]></msgid>
+		<msgstr><![CDATA[选择年]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Month]]></msgid>
+		<msgstr><![CDATA[选择月]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Day]]></msgid>
+		<msgstr><![CDATA[选择日]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Hometown:]]></msgid>
+		<msgstr><![CDATA[家乡:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Verify Code:]]></msgid>
+		<msgstr><![CDATA[验证码:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Try a new code]]></msgid>
+		<msgstr><![CDATA[看不清换一张]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Policy:]]></msgid>
+		<msgstr><![CDATA[注册协议:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[I certify that I have read and agree to the]]></msgid>
+		<msgstr><![CDATA[我已阅读并同意]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[ NJUSNS Privacy Policy ]]></msgid>
+		<msgstr><![CDATA[《南京大学学术社交网使用协议》]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Return]]></msgid>
+		<msgstr><![CDATA[返回]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Done]]></msgid>
+		<msgstr><![CDATA[注册]]></msgstr>
+	</message>
+	
+	
+	
+	
+	
+	
+	<message>
+		<msgid><![CDATA[Message]]></msgid>
+		<msgstr><![CDATA[站内消息]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Logout]]></msgid>
+		<msgstr><![CDATA[注销登录]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[ResetPwd]]></msgid>
+		<msgstr><![CDATA[修改密码]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Home]]></msgid>
+		<msgstr><![CDATA[首页]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Profile]]></msgid>
+		<msgstr><![CDATA[个人主页]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Classes]]></msgid>
+		<msgstr><![CDATA[我的课程]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Agenda]]></msgid>
+		<msgstr><![CDATA[我的日程]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Friends]]></msgid>
+		<msgstr><![CDATA[我的好友]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Login]]></msgid>
+		<msgstr><![CDATA[登录]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Register]]></msgid>
+		<msgstr><![CDATA[注册新用户]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Notification]]></msgid>
+		<msgstr><![CDATA[通知]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Class]]></msgid>
+		<msgstr><![CDATA[课程]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Newsfeed]]></msgid>
+		<msgstr><![CDATA[社交]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Info]]></msgid>
+		<msgstr><![CDATA[详细资料]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Info]]></msgid>
+		<msgstr><![CDATA[详细资料]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[News]]></msgid>
+		<msgstr><![CDATA[动态]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[List View]]></msgid>
+		<msgstr><![CDATA[列表视图]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Total Course]]></msgid>
+		<msgstr><![CDATA[全校课程]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Week View]]></msgid>
+		<msgstr><![CDATA[周视图]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Discussion]]></msgid>
+		<msgstr><![CDATA[讨论区]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Resource]]></msgid>
+		<msgstr><![CDATA[资源]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Assignment]]></msgid>
+		<msgstr><![CDATA[作业]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Slides]]></msgid>
+		<msgstr><![CDATA[课件]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Students]]></msgid>
+		<msgstr><![CDATA[学生]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Inbox]]></msgid>
+		<msgstr><![CDATA[收件箱]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[SentMail]]></msgid>
+		<msgstr><![CDATA[已发箱]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Compose]]></msgid>
+		<msgstr><![CDATA[新站内信]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Change Profile Picture]]></msgid>
+		<msgstr><![CDATA[修改头像]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Edit Info]]></msgid>
+		<msgstr><![CDATA[编辑资料]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Edit]]></msgid>
+		<msgstr><![CDATA[编辑]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Delete]]></msgid>
+		<msgstr><![CDATA[删除]]></msgstr>
+	</message>
+	
+	<message>
+		<msgid><![CDATA[Basic Info]]></msgid>
+		<msgstr><![CDATA[基本信息]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Name:]]></msgid>
+		<msgstr><![CDATA[真实姓名:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Gender:]]></msgid>
+		<msgstr><![CDATA[性别:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Birthdate:]]></msgid>
+		<msgstr><![CDATA[生日:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Hometown:]]></msgid>
+		<msgstr><![CDATA[家乡:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Department:]]></msgid>
+		<msgstr><![CDATA[院系:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Major:]]></msgid>
+		<msgstr><![CDATA[专业:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Dorm room:]]></msgid>
+		<msgstr><![CDATA[房间号:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Interests:]]></msgid>
+		<msgstr><![CDATA[兴趣爱好:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Musics:]]></msgid>
+		<msgstr><![CDATA[喜欢音乐:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Movies:]]></msgid>
+		<msgstr><![CDATA[喜欢电影:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Sports:]]></msgid>
+		<msgstr><![CDATA[喜欢运动:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Books:]]></msgid>
+		<msgstr><![CDATA[喜欢书籍:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Phone:]]></msgid>
+		<msgstr><![CDATA[手机号:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Email:]]></msgid>
+		<msgstr><![CDATA[邮箱:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Save]]></msgid>
+		<msgstr><![CDATA[保存]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Cancel]]></msgid>
+		<msgstr><![CDATA[取消]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Male]]></msgid>
+		<msgstr><![CDATA[男]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Female]]></msgid>
+		<msgstr><![CDATA[女]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Basic Info]]></msgid>
+		<msgstr><![CDATA[基础信息]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School Info]]></msgid>
+		<msgstr><![CDATA[学校信息]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Interests Info]]></msgid>
+		<msgstr><![CDATA[兴趣爱好]]></msgstr>
+	</message>
+	
+	
+	
+
+	
+	<message>
+		<msgid><![CDATA[Contact Info]]></msgid>
+		<msgstr><![CDATA[联系方式]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[New Course]]></msgid>
+		<msgstr><![CDATA[创建课程]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Course Info]]></msgid>
+		<msgstr><![CDATA[课程信息]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Course Term:]]></msgid>
+		<msgstr><![CDATA[上课学期:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Course Name:]]></msgid>
+		<msgstr><![CDATA[课程名称:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Course Name]]></msgid>
+		<msgstr><![CDATA[课程名称]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Category:]]></msgid>
+		<msgstr><![CDATA[课程类型:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Category]]></msgid>
+		<msgstr><![CDATA[课程类型]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Time:]]></msgid>
+		<msgstr><![CDATA[上课时间:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Time]]></msgid>
+		<msgstr><![CDATA[上课时间]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Time1(Optional):]]></msgid>
+		<msgstr><![CDATA[上课时间1(可选):]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Time2(Optional):]]></msgid>
+		<msgstr><![CDATA[上课时间2(可选):]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Time3(Optional):]]></msgid>
+		<msgstr><![CDATA[上课时间3(可选):]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Classroom:]]></msgid>
+		<msgstr><![CDATA[上课教室:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Classroom]]></msgid>
+		<msgstr><![CDATA[上课教室]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Num Of Students:]]></msgid>
+		<msgstr><![CDATA[学生人数:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Textbook:]]></msgid>
+		<msgstr><![CDATA[课程用书:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Textbook]]></msgid>
+		<msgstr><![CDATA[课程用书]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Set Assistant]]></msgid>
+		<msgstr><![CDATA[设置助教]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Need Approval:]]></msgid>
+		<msgstr><![CDATA[关注需要验证:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Verify Type:]]></msgid>
+		<msgstr><![CDATA[验证方式:]]></msgstr>
+	</message>
+	
+	<message>
+		<msgid><![CDATA[By Code]]></msgid>
+		<msgstr><![CDATA[密码认证]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[None]]></msgid>
+		<msgstr><![CDATA[无需认证]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Manually]]></msgid>
+		<msgstr><![CDATA[手动确认]]></msgstr>
+	</message>
+	
+	<message>
+		<msgid><![CDATA[Verify Code:]]></msgid>
+		<msgstr><![CDATA[验证密码:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Semester:]]></msgid>
+		<msgstr><![CDATA[课程学期:]]></msgstr>
+	</message>
+	
+	<message>
+		<msgid><![CDATA[Link:]]></msgid>
+		<msgstr><![CDATA[站外课程主页:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Course Intro:]]></msgid>
+		<msgstr><![CDATA[课程简介:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Instructor Info]]></msgid>
+		<msgstr><![CDATA[教师信息]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Instructor:]]></msgid>
+		<msgstr><![CDATA[任课教师:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Instructor]]></msgid>
+		<msgstr><![CDATA[任课教师]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Operation]]></msgid>
+		<msgstr><![CDATA[课程操作]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Assistant:]]></msgid>
+		<msgstr><![CDATA[助教:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Slides Title]]></msgid>
+		<msgstr><![CDATA[课件标题]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Chapter]]></msgid>
+		<msgstr><![CDATA[课件章节]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Visits]]></msgid>
+		<msgstr><![CDATA[下载量]]></msgstr>
+	</message>		
+	<message>
+		<msgid><![CDATA[Download]]></msgid>
+		<msgstr><![CDATA[下载]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Create Time]]></msgid>
+		<msgstr><![CDATA[创建时间]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Update Time]]></msgid>
+		<msgstr><![CDATA[最近修改]]></msgstr>
+	</message>	
+	
+	<message>
+		<msgid><![CDATA[Assignment]]></msgid>
+		<msgstr><![CDATA[作业]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Due Date]]></msgid>
+		<msgstr><![CDATA[截止时间]]></msgstr>
+	</message>		
+	<message>
+		<msgid><![CDATA[Reference Title]]></msgid>
+		<msgstr><![CDATA[资源标题]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[New Assignment]]></msgid>
+		<msgstr><![CDATA[添加作业]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Upload Assignment]]></msgid>
+		<msgstr><![CDATA[上传作业]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[New Slides]]></msgid>
+		<msgstr><![CDATA[新增课件]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[New Reference]]></msgid>
+		<msgstr><![CDATA[新增资源]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Change FTP]]></msgid>
+		<msgstr><![CDATA[更改FTP]]></msgstr>
+	</message>
+	
+	<message>
+		<msgid><![CDATA[Recommended courses]]></msgid>
+		<msgstr><![CDATA[推荐课程:]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Suggestion]]></msgid>
+		<msgstr><![CDATA[改进意见]]></msgstr>
+	</message>
+	
+	<message>
+		<msgid><![CDATA[Accept]]></msgid>
+		<msgstr><![CDATA[接受]]></msgstr>
+	</message>
+	
+	<message>
+		<msgid><![CDATA[Update]]></msgid>
+		<msgstr><![CDATA[发布课程通知]]></msgstr>
+	</message>
+	
+	<message>
+		<msgid><![CDATA[News]]></msgid>
+		<msgstr><![CDATA[动态]]></msgstr>
+	</message>
+	
+	<message>
+		<msgid><![CDATA[New Topic]]></msgid>
+		<msgstr><![CDATA[发布新帖]]></msgstr>
+	</message>
+	
+	<message>
+		<msgid><![CDATA[New Area]]></msgid>
+		<msgstr><![CDATA[新讨论区]]></msgstr>
+	</message>
+	
+	<message>
+		<msgid><![CDATA[Area List]]></msgid>
+		<msgstr><![CDATA[讨论区列表]]></msgstr>
+	</message>
+	
+	<message>
+		<msgid><![CDATA[Course News]]></msgid>
+		<msgstr><![CDATA[课程通知]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Any News?]]></msgid>
+		<msgstr><![CDATA[有什么课程通知需要发表?]]></msgstr>
+	</message>
+	
+	<message>
+		<msgid><![CDATA[Refuse]]></msgid>
+		<msgstr><![CDATA[拒绝]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Select All]]></msgid>
+		<msgstr><![CDATA[全选]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Select None]]></msgid>
+		<msgstr><![CDATA[全不选]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Select Inverse]]></msgid>
+		<msgstr><![CDATA[反选]]></msgstr>
+	</message>		
+	
+	
+	<message>
+		<msgid><![CDATA[Suggest]]></msgid>
+		<msgstr><![CDATA[建议]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[About]]></msgid>
+		<msgstr><![CDATA[关于]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Contact]]></msgid>
+		<msgstr><![CDATA[联系我们]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Prev]]></msgid>
+		<msgstr><![CDATA[前页]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Next]]></msgid>
+		<msgstr><![CDATA[后页]]></msgstr>
+	</message>
+
+	<!-- add by Xiaofan -->
+	<!--以下是department的翻译-->
+	<message>
+		<msgid><![CDATA[Option]]></msgid>
+		<msgstr><![CDATA[请选择]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Public Courses]]></msgid>
+		<msgstr><![CDATA[公共课程]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Humanities]]></msgid>
+		<msgstr><![CDATA[文学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Department of History]]></msgid>
+		<msgstr><![CDATA[历史学系]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Law]]></msgid>
+		<msgstr><![CDATA[法学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Department of Philosophy]]></msgid>
+		<msgstr><![CDATA[哲学系]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Journalism and Communication]]></msgid>
+		<msgstr><![CDATA[新闻传播学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Government]]></msgid>
+		<msgstr><![CDATA[政府管理学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Department of Information Management]]></msgid>
+		<msgstr><![CDATA[信息管理系]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Social and Behavioral Sciences]]></msgid>
+		<msgstr><![CDATA[社会学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Business]]></msgid>
+		<msgstr><![CDATA[商学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Foreign Studies]]></msgid>
+		<msgstr><![CDATA[外国语学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Department of Mathematics]]></msgid>
+		<msgstr><![CDATA[数学系]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Physics]]></msgid>
+		<msgstr><![CDATA[物理学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Chemistry and Chemical Engineering]]></msgid>
+		<msgstr><![CDATA[化学化工学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Life Sciences]]></msgid>
+		<msgstr><![CDATA[生命科学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Earth Sciences and Engineering]]></msgid>
+		<msgstr><![CDATA[地球科学与工程学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Geographic and Oceanographic Sciences]]></msgid>
+		<msgstr><![CDATA[地理与海洋科学学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Atmospheric Sciences]]></msgid>
+		<msgstr><![CDATA[大气科学学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Electronic Science and Engineering]]></msgid>
+		<msgstr><![CDATA[电子科学与工程学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Modern Engineering and Applied Sciences]]></msgid>
+		<msgstr><![CDATA[现代工程与应用科学学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of the Environment]]></msgid>
+		<msgstr><![CDATA[环境学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Astronomy and Space Sciences]]></msgid>
+		<msgstr><![CDATA[天文与空间科学学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Department of Computer Science and Technology]]></msgid>
+		<msgstr><![CDATA[计算机科学与技术系]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Medical School]]></msgid>
+		<msgstr><![CDATA[医学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Kuang Yaming School]]></msgid>
+		<msgstr><![CDATA[匡亚明学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Software Engineering]]></msgid>
+		<msgstr><![CDATA[软件学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Institute of Education]]></msgid>
+		<msgstr><![CDATA[教育研究院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Management and Engineering]]></msgid>
+		<msgstr><![CDATA[工程管理学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Overseas Education]]></msgid>
+		<msgstr><![CDATA[海外教育学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Architecture and Urban Planning]]></msgid>
+		<msgstr><![CDATA[建筑与城市规划学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[College]]></msgid>
+		<msgstr><![CDATA[专科]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Minor School]]></msgid>
+		<msgstr><![CDATA[副修学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Exchange students]]></msgid>
+		<msgstr><![CDATA[交流学生]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[General Courses of University]]></msgid>
+		<msgstr><![CDATA[全校通修课程]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Cultural Quality Elective Course]]></msgid>
+		<msgstr><![CDATA[文化素质选修]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Institute for Higher Education]]></msgid>
+		<msgstr><![CDATA[高等教育研究所]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Department of Applied Foreign Language Studies]]></msgid>
+		<msgstr><![CDATA[大学外语教学部]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Leave of Absence or Drop Out]]></msgid>
+		<msgstr><![CDATA[休退学]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[School of Jinling]]></msgid>
+		<msgstr><![CDATA[金陵学院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Graduate School]]></msgid>
+		<msgstr><![CDATA[研究生院]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Employment and Entrepreneurship Courses]]></msgid>
+		<msgstr><![CDATA[就业创业课程]]></msgstr>
+	</message>
+	<!--以下是major的翻译-->
+	<!---1 未选择-->
+
+	<!--00 公共课程-->
+	<message>
+		<msgid><![CDATA[None]]></msgid>
+		<msgstr><![CDATA[无]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[General Seminar]]></msgid>
+		<msgstr><![CDATA[通识研讨课]]></msgstr>
+	</message>	
+	<!--01 文学院-->
+	<message>
+		<msgid><![CDATA[Chinese Language and Literature Class]]></msgid>
+		<msgstr><![CDATA[中国语言文学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Chinese Language and Literature]]></msgid>
+		<msgstr><![CDATA[汉语言文学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Chinese Language and Literature(Writer Class)]]></msgid>
+		<msgstr><![CDATA[汉语言文学(作家班)]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Theater Movie and Television]]></msgid>
+		<msgstr><![CDATA[戏剧影视文学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Chinese Base Class]]></msgid>
+		<msgstr><![CDATA[中文基地]]></msgstr>
+	</message>	
+	<!--02 历史学系-->
+	<message>
+		<msgid><![CDATA[History Class]]></msgid>
+		<msgstr><![CDATA[历史学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[History]]></msgid>
+		<msgstr><![CDATA[历史学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Archaeology]]></msgid>
+		<msgstr><![CDATA[考古学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Archaeology(Identification of Cultural Relics)]]></msgid>
+		<msgstr><![CDATA[考古学（文物鉴定）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[History Base Class]]></msgid>
+		<msgstr><![CDATA[历史基地]]></msgstr>
+	</message>	
+	<!--03 法学院-->
+	<message>
+		<msgid><![CDATA[Law Class]]></msgid>
+		<msgstr><![CDATA[法学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Law]]></msgid>
+		<msgstr><![CDATA[法学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Law(Athlete Class)]]></msgid>
+		<msgstr><![CDATA[法学（运动员班）]]></msgstr>
+	</message>	
+	<!--04 哲学系-->
+	<message>
+		<msgid><![CDATA[Philosophy Class]]></msgid>
+		<msgstr><![CDATA[哲学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Philosophy]]></msgid>
+		<msgstr><![CDATA[哲学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Philosophy Base Class]]></msgid>
+		<msgstr><![CDATA[哲学基地]]></msgstr>
+	</message>
+	<!--05 新闻传播学院-->
+	<message>
+		<msgid><![CDATA[Journalism Class]]></msgid>
+		<msgstr><![CDATA[新闻学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Journalism]]></msgid>
+		<msgstr><![CDATA[新闻学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Advertisement]]></msgid>
+		<msgstr><![CDATA[广告学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Radio and Television]]></msgid>
+		<msgstr><![CDATA[广播电视]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Journalism(Journalist Class)]]></msgid>
+		<msgstr><![CDATA[新闻学（记者班）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Journalism(Athlete Class)]]></msgid>
+		<msgstr><![CDATA[新闻学（运动员班）]]></msgstr>
+	</message>	
+	<!--06 政府管理学院-->
+	<message>
+		<msgid><![CDATA[Public Administration]]></msgid>
+		<msgstr><![CDATA[公共管理类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Political Science and Public Administration]]></msgid>
+		<msgstr><![CDATA[政治学与行政学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Administration Management]]></msgid>
+		<msgstr><![CDATA[行政管理]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[International Politics]]></msgid>
+		<msgstr><![CDATA[国际政治]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Political Science]]></msgid>
+		<msgstr><![CDATA[政治学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Personnel Management and Social Security]]></msgid>
+		<msgstr><![CDATA[劳动人事与社会保障]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Education Technology]]></msgid>
+		<msgstr><![CDATA[教育技术学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Administration Management(Athlete Class)]]></msgid>
+		<msgstr><![CDATA[行政管理（体育）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Administration Management(Xinjiang Class)]]></msgid>
+		<msgstr><![CDATA[行政管理（新疆班）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Political Science Class]]></msgid>
+		<msgstr><![CDATA[政治学类]]></msgstr>
+	</message>	
+	<!--07 信息管理系-->
+	<message>
+		<msgid><![CDATA[Liberal Arts Class]]></msgid>
+		<msgstr><![CDATA[文科类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Information Management and Information Systems]]></msgid>
+		<msgstr><![CDATA[信息管理与信息系统]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Library Science]]></msgid>
+		<msgstr><![CDATA[图书馆学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Archives]]></msgid>
+		<msgstr><![CDATA[档案学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Editing and Publishing]]></msgid>
+		<msgstr><![CDATA[编辑出版]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Science Class]]></msgid>
+		<msgstr><![CDATA[理科类]]></msgstr>
+	</message>	
+	<!--08 社会学院-->
+	<message>
+		<msgid><![CDATA[Sociology Class]]></msgid>
+		<msgstr><![CDATA[社会学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Sociology]]></msgid>
+		<msgstr><![CDATA[社会学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Social Work and Social Policy]]></msgid>
+		<msgstr><![CDATA[社会工作]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Applied Psychology]]></msgid>
+		<msgstr><![CDATA[应用心理学]]></msgstr>
+	</message>	
+	<!--09 商学院-->
+	<message>
+		<msgid><![CDATA[Economics Class]]></msgid>
+		<msgstr><![CDATA[经济学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Economics]]></msgid>
+		<msgstr><![CDATA[经济学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[International Economics and Trade]]></msgid>
+		<msgstr><![CDATA[国际经济与贸易]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Business Administration]]></msgid>
+		<msgstr><![CDATA[工商管理]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Accounting]]></msgid>
+		<msgstr><![CDATA[会计学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Financial Management]]></msgid>
+		<msgstr><![CDATA[财务管理]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Finance]]></msgid>
+		<msgstr><![CDATA[金融学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Electronic Business]]></msgid>
+		<msgstr><![CDATA[电子商务]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Marketing]]></msgid>
+		<msgstr><![CDATA[市场营销]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Management Class]]></msgid>
+		<msgstr><![CDATA[管理学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Business Administration(double bachelor degree)]]></msgid>
+		<msgstr><![CDATA[工商管理（二学位)]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[International Economics and Trade(double bachelor degree)]]></msgid>
+		<msgstr><![CDATA[国际经济与贸易（二学位）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Human Resouce Management]]></msgid>
+		<msgstr><![CDATA[人力资源管理]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Insurance]]></msgid>
+		<msgstr><![CDATA[保险学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Financial Engineering]]></msgid>
+		<msgstr><![CDATA[金融工程]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Industrial Economics]]></msgid>
+		<msgstr><![CDATA[产业经济]]></msgstr>
+	</message>	
+	<!--10 外国语学院-->
+	<message>
+		<msgid><![CDATA[Foreign Language Class]]></msgid>
+		<msgstr><![CDATA[外语类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[English]]></msgid>
+		<msgstr><![CDATA[英语]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Russian]]></msgid>
+		<msgstr><![CDATA[俄语]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Japanese]]></msgid>
+		<msgstr><![CDATA[日语]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[French]]></msgid>
+		<msgstr><![CDATA[法语]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[German]]></msgid>
+		<msgstr><![CDATA[德语]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Spanish]]></msgid>
+		<msgstr><![CDATA[西班牙语]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[English(International Business Communication)]]></msgid>
+		<msgstr><![CDATA[英语(国际商务方向)]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Applied English]]></msgid>
+		<msgstr><![CDATA[应用英语强化班]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Korean]]></msgid>
+		<msgstr><![CDATA[朝鲜语]]></msgstr>
+	</message>	
+	<!--11 数学系-->
+	<message>
+		<msgid><![CDATA[Mathematics Class]]></msgid>
+		<msgstr><![CDATA[数学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Mathematics and Applied Mathematics]]></msgid>
+		<msgstr><![CDATA[数学与应用数学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Information and Computing Science]]></msgid>
+		<msgstr><![CDATA[信息与计算科学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Statistics]]></msgid>
+		<msgstr><![CDATA[统计学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Application Module]]></msgid>
+		<msgstr><![CDATA[应用模块]]></msgstr>
+	</message>	
+	<!--12 物理学院-->
+	<message>
+		<msgid><![CDATA[Physics Class]]></msgid>
+		<msgstr><![CDATA[物理学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Physics]]></msgid>
+		<msgstr><![CDATA[物理学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Applied Physics]]></msgid>
+		<msgstr><![CDATA[应用物理学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Physics Base Class]]></msgid>
+		<msgstr><![CDATA[物理基地]]></msgstr>
+	</message>	
+	<!--13 化学化工学院-->
+	<message>
+		<msgid><![CDATA[Chemistry Class]]></msgid>
+		<msgstr><![CDATA[化学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Chemistry]]></msgid>
+		<msgstr><![CDATA[化学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Applied Chemistry]]></msgid>
+		<msgstr><![CDATA[应用化学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Chemistry Base Class]]></msgid>
+		<msgstr><![CDATA[化学基地]]></msgstr>
+	</message>	
+	<!--14 生命科学院-->
+	<message>
+		<msgid><![CDATA[Biological Science Class]]></msgid>
+		<msgstr><![CDATA[生物科学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Biological Technology]]></msgid>
+		<msgstr><![CDATA[生物技术]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Biological Science]]></msgid>
+		<msgstr><![CDATA[生物科学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Ecology]]></msgid>
+		<msgstr><![CDATA[生态学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Biological Technology(jointly run with CPU)]]></msgid>
+		<msgstr><![CDATA[生物技术（与药科大学联办）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Biological Science Base Class]]></msgid>
+		<msgstr><![CDATA[生科基地]]></msgstr>
+	</message>	
+	<!--15 地球科学与工程学院-->
+	<message>
+		<msgid><![CDATA[Earth Science Class]]></msgid>
+		<msgstr><![CDATA[地球科学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Geology]]></msgid>
+		<msgstr><![CDATA[地质学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Geochemistry]]></msgid>
+		<msgstr><![CDATA[地球化学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Geological Engineering]]></msgid>
+		<msgstr><![CDATA[地质工程]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Hydrology and Water Resources Engineering]]></msgid>
+		<msgstr><![CDATA[水文与水资源工程]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Information Resource and Computer Management]]></msgid>
+		<msgstr><![CDATA[信息资源与计算机管理]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Mineralogy, Petrology and Mineral Deposit Geology]]></msgid>
+		<msgstr><![CDATA[矿物岩石矿床]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Paleontology]]></msgid>
+		<msgstr><![CDATA[古生物]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Groundwater Science and Engineering]]></msgid>
+		<msgstr><![CDATA[地下水科学与工程]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Network Technology]]></msgid>
+		<msgstr><![CDATA[网络技术]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Earth Science Base Class]]></msgid>
+		<msgstr><![CDATA[地科基地]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Geophysical]]></msgid>
+		<msgstr><![CDATA[地球物理]]></msgstr>
+	</message>	
+	<!--16 地理与海洋科学学院-->
+	<message>
+		<msgid><![CDATA[Geography of Marine Science Class]]></msgid>
+		<msgstr><![CDATA[地理海洋科学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Resources, Environment and Urban Planning Management]]></msgid>
+		<msgstr><![CDATA[资源环境与城乡规划管理]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Geographic Information Science]]></msgid>
+		<msgstr><![CDATA[地理信息系统]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Urban and Regional Planning]]></msgid>
+		<msgstr><![CDATA[城市规划]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Geography]]></msgid>
+		<msgstr><![CDATA[地理科学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Urban and Resource Science]]></msgid>
+		<msgstr><![CDATA[城市与资源学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Tourism Management]]></msgid>
+		<msgstr><![CDATA[旅游管理]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Coastal and Oceanography Science]]></msgid>
+		<msgstr><![CDATA[海洋科学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Geography Base Class]]></msgid>
+		<msgstr><![CDATA[地理基地]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Coastal and Oceanography Base Class]]></msgid>
+		<msgstr><![CDATA[海洋基地]]></msgstr>
+	</message>	
+	<!--17 大气科学学院-->
+	<message>
+		<msgid><![CDATA[Atmospheric Science Class]]></msgid>
+		<msgstr><![CDATA[大气科学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Atmospheric Science]]></msgid>
+		<msgstr><![CDATA[大气科学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Applied Meteorology]]></msgid>
+		<msgstr><![CDATA[应用气象]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Atmospheric Sciences Base Class]]></msgid>
+		<msgstr><![CDATA[大气基地]]></msgstr>
+	</message>	
+	<!--18 电子科学与工程学院-->
+	<message>
+		<msgid><![CDATA[Electronic Science Class]]></msgid>
+		<msgstr><![CDATA[电子科学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Electronic Information Science and Technology]]></msgid>
+		<msgstr><![CDATA[电子信息科学与技术]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Acoustics]]></msgid>
+		<msgstr><![CDATA[声学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Communication Engineering]]></msgid>
+		<msgstr><![CDATA[通信工程]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Biomedical Engineering]]></msgid>
+		<msgstr><![CDATA[生物医学工程]]></msgstr>
+	</message>	
+	<!--19 现代工程与应用科学学院-->
+	<message>
+		<msgid><![CDATA[Materials Science Class]]></msgid>
+		<msgstr><![CDATA[材料科学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Materials Physics]]></msgid>
+		<msgstr><![CDATA[材料物理]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Materials Chemistry]]></msgid>
+		<msgstr><![CDATA[材料化学]]></msgstr>
+	</message>	
+	<!--20 环境学院-->
+	<message>
+		<msgid><![CDATA[Environmental Science Class]]></msgid>
+		<msgstr><![CDATA[环境科学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Environmental Engineering]]></msgid>
+		<msgstr><![CDATA[环境工程]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Environmental Sciences]]></msgid>
+		<msgstr><![CDATA[环境科学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Environmental Sciences(Environmental Chemistry)]]></msgid>
+		<msgstr><![CDATA[环境科学（环化）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Environmental Sciences(Environmental Biology)]]></msgid>
+		<msgstr><![CDATA[环境科学（环生）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Environmental Sciences(Environmental Planning and Management)]]></msgid>
+		<msgstr><![CDATA[环境科学（环规）]]></msgstr>
+	</message>	
+	<!--21 天文与空间科学学院-->
+	<message>
+		<msgid><![CDATA[Astronomy Class]]></msgid>
+		<msgstr><![CDATA[天文学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Astronomy]]></msgid>
+		<msgstr><![CDATA[天文学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Astronomy Base Class]]></msgid>
+		<msgstr><![CDATA[天文基地]]></msgstr>
+	</message>	
+	<!--22 计算机科学与技术系-->
+	<message>
+		<msgid><![CDATA[Computer Science]]></msgid>
+		<msgstr><![CDATA[计算机科学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Computer Science and Technology]]></msgid>
+		<msgstr><![CDATA[计算机科学与技术]]></msgstr>
+	</message>	
+	<!--23 医学院-->
+	<message>
+		<msgid><![CDATA[Medicine]]></msgid>
+		<msgstr><![CDATA[医学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Clinical Medicine]]></msgid>
+		<msgstr><![CDATA[临床医学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Stomotology]]></msgid>
+		<msgstr><![CDATA[口腔医学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Clinical Medicine(General Hospital of Nanjing Military Command)]]></msgid>
+		<msgstr><![CDATA[临床医学（军总）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Basic Medicine]]></msgid>
+		<msgstr><![CDATA[基础医学]]></msgstr>
+	</message>	
+	<!--24 匡亚明学院-->
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Applied Liberal Arts]]></msgid>
+		<msgstr><![CDATA[应用文科强化班]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Science]]></msgid>
+		<msgstr><![CDATA[理科强化班]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Science(Mathematics and Physics)]]></msgid>
+		<msgstr><![CDATA[理强（数理方向）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Science(Biology and Chemistry)]]></msgid>
+		<msgstr><![CDATA[理强（生物化学）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Talent Development Program(Physics)]]></msgid>
+		<msgstr><![CDATA[英才计划（物理班）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Talent Development Program(Astronomy)]]></msgid>
+		<msgstr><![CDATA[英才计划（天文）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Science(Atmospheric Sciences Base Class)]]></msgid>
+		<msgstr><![CDATA[理强（大气基地）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Talent Development Program(Chemistry)]]></msgid>
+		<msgstr><![CDATA[英才计划（化学班）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Talent Development Program(Life Sciences)]]></msgid>
+		<msgstr><![CDATA[英才计划（生命科学班）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Science(Earth Science Base Class)]]></msgid>
+		<msgstr><![CDATA[理强（地科基地）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Science(Geography Base Class)]]></msgid>
+		<msgstr><![CDATA[理强（地理基地）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Science(Coastal and Oceanography Base Class)]]></msgid>
+		<msgstr><![CDATA[理强（海洋基地）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Science(Architecture Base Class)]]></msgid>
+		<msgstr><![CDATA[理强（建筑基地）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Liberal Arts(Education Base Class)]]></msgid>
+		<msgstr><![CDATA[理强（教育基地）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Liberal Arts(Chinese Base Class)]]></msgid>
+		<msgstr><![CDATA[文强（中文基地）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Liberal Arts(History Base Class)]]></msgid>
+		<msgstr><![CDATA[文强（历史基地）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Liberal Arts(Philosophy Base Class)]]></msgid>
+		<msgstr><![CDATA[文强（哲学基地）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Talent Development Program(Science)]]></msgid>
+		<msgstr><![CDATA[英才计划（大理科班）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Talent Development Program(Computer Science)]]></msgid>
+		<msgstr><![CDATA[英才计划（计算机班）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Talent Development Program(Mathematics)]]></msgid>
+		<msgstr><![CDATA[英才计划（数学班）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Liberal Arts(Economics)]]></msgid>
+		<msgstr><![CDATA[文强（经济学）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Liberal Arts(Finance)]]></msgid>
+		<msgstr><![CDATA[文强（金融学）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Liberal Arts(International Economics and Trade)]]></msgid>
+		<msgstr><![CDATA[文强（国际经济与贸易）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Liberal Arts(Business Administration)]]></msgid>
+		<msgstr><![CDATA[文强（工商管理）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive Training Class of Liberal Arts(Accounting)]]></msgid>
+		<msgstr><![CDATA[文强（会计学）]]></msgstr>
+	</message>		
+	<!--25 软件学院-->
+	<message>
+		<msgid><![CDATA[Software Class]]></msgid>
+		<msgstr><![CDATA[软件学类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Software Engineering]]></msgid>
+		<msgstr><![CDATA[软件工程]]></msgstr>
+	</message>	
+	<!--26 教育研究院-->
+<!--	<message>
+		<msgid><![CDATA[Educational Technology]]></msgid>
+		<msgstr><![CDATA[教育技术学]]></msgstr>
+	</message>		
+已写过-->
+	<!--27 工程管理学院-->
+	<message>
+		<msgid><![CDATA[Management Sciences and Engineering]]></msgid>
+		<msgstr><![CDATA[管理科学与工程]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Automatic Control and System Engineering]]></msgid>
+		<msgstr><![CDATA[自动化]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Industrial Engineering]]></msgid>
+		<msgstr><![CDATA[工业工程]]></msgstr>
+	</message>	
+<!--
+	<message>
+		<msgid><![CDATA[Financial Engineering]]></msgid>
+		<msgstr><![CDATA[金融工程]]></msgstr>
+	</message>	
+已写过-->
+	<message>
+		<msgid><![CDATA[Information Engineering]]></msgid>
+		<msgstr><![CDATA[信息工程]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Electrical Information]]></msgid>
+		<msgstr><![CDATA[电气信息类]]></msgstr>
+	</message>	
+	<!--28 海外教育学院-->
+	<message>
+		<msgid><![CDATA[Overseas Education]]></msgid>
+		<msgstr><![CDATA[海外教育类]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Chinese as a Foreign Language]]></msgid>
+		<msgstr><![CDATA[对外汉语]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Chinese Language]]></msgid>
+		<msgstr><![CDATA[汉语言]]></msgstr>
+	</message>	
+	<!--29 建筑与城市规划学院-->
+	<message>
+		<msgid><![CDATA[Architecture]]></msgid>
+		<msgstr><![CDATA[建筑学]]></msgstr>
+	</message>	
+<!--	<message>
+		<msgid><![CDATA[Urban Planning and Design]]></msgid>
+		<msgstr><![CDATA[城市规划]]></msgstr>
+	</message>	
+已写过-->
+	<message>
+		<msgid><![CDATA[Architecture Base Class]]></msgid>
+		<msgstr><![CDATA[建筑基地]]></msgstr>
+	</message>	
+	<!--31 专科-->
+	<message>
+		<msgid><![CDATA[Secretary]]></msgid>
+		<msgstr><![CDATA[秘书]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Electronic Technology and Computer Application]]></msgid>
+		<msgstr><![CDATA[电子技术及微机应用]]></msgstr>
+	</message>	
+<!--	<message>
+		<msgid><![CDATA[Law]]></msgid>
+		<msgstr><![CDATA[法学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[未修改]]></msgid>
+		<msgstr><![CDATA[工商管理]]></msgstr>
+	</message>	
+已写过-->
+	<message>
+		<msgid><![CDATA[International Trade]]></msgid>
+		<msgstr><![CDATA[国际贸易]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Economic Law]]></msgid>
+		<msgstr><![CDATA[经济法]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Police Management]]></msgid>
+		<msgstr><![CDATA[警察管理]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Criminal Investigation]]></msgid>
+		<msgstr><![CDATA[刑事侦查]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Information Applications]]></msgid>
+		<msgstr><![CDATA[信息应用]]></msgstr>
+	</message>	
+	<!--34 副修学院-->
+	<message>
+		<msgid><![CDATA[Finance(Minor)]]></msgid>
+		<msgstr><![CDATA[金融学(副修)]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Management(Minor)]]></msgid>
+		<msgstr><![CDATA[管理学(副修)]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Law(Minor)]]></msgid>
+		<msgstr><![CDATA[法律(副修)]]></msgstr>
+	</message>		
+	<!--35 交流学生-->
+	<message>
+		<msgid><![CDATA[Exchange Students]]></msgid>
+		<msgstr><![CDATA[交流学生]]></msgstr>
+	</message>	
+	<!--36 General Courses-->
+	<message>
+		<msgid><![CDATA[General Course]]></msgid>
+		<msgstr><![CDATA[通修课程]]></msgstr>
+	</message>	
+	<!--37 文化素质选修-->
+	<message>
+		<msgid><![CDATA[Xianlin Cultural Quality Elective Course]]></msgid>
+		<msgstr><![CDATA[仙林文化素质选修]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Gulou Cultural Quality Elective Course]]></msgid>
+		<msgstr><![CDATA[鼓楼文化素质选修]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[General Education Course]]></msgid>
+		<msgstr><![CDATA[通识课]]></msgstr>
+	</message>		
+	<!--39 高等教育研究所-->
+	<message>
+		<msgid><![CDATA[Higher Education Research]]></msgid>
+		<msgstr><![CDATA[高教研究]]></msgstr>
+	</message>	
+	<!--41 大学外语教学部-->
+	<message>
+		<msgid><![CDATA[English Band 1]]></msgid>
+		<msgstr><![CDATA[英语一级]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[English Band 2]]></msgid>
+		<msgstr><![CDATA[英语二级]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[English Band 3]]></msgid>
+		<msgstr><![CDATA[英语三级]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[English Band 4]]></msgid>
+		<msgstr><![CDATA[英语四级]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[English Band 5]]></msgid>
+		<msgstr><![CDATA[英语五级]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[English Band 6]]></msgid>
+		<msgstr><![CDATA[英语六级]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Intensive English]]></msgid>
+		<msgstr><![CDATA[英语强化]]></msgstr>
+	</message>	
+	<!--58 休退学-->
+	<message>
+		<msgid><![CDATA[Drop Out]]></msgid>
+		<msgstr><![CDATA[退学]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Leave of Absence]]></msgid>
+		<msgstr><![CDATA[休学]]></msgstr>
+	</message>	
+	<!--59 金陵学院-->
+	<message>
+		<msgid><![CDATA[Resource Environment and Urban Planning]]></msgid>
+		<msgstr><![CDATA[资源环境与城乡规划]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Chemistry(Modern Analysis)]]></msgid>
+		<msgstr><![CDATA[化学（现代分析）]]></msgstr>
+	</message>
+	<message>
+		<msgid><![CDATA[Communication Engineering(International Cooperation Class)]]></msgid>
+		<msgstr><![CDATA[通信工程（国际合作班）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Electronic Engineering(International Cooperation Class)]]></msgid>
+		<msgstr><![CDATA[电子工程（国际合作班）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Computer Engineering(International Cooperation Class)]]></msgid>
+		<msgstr><![CDATA[计算机工程（国际合作班）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Network Engineering(International Cooperation Class)]]></msgid>
+		<msgstr><![CDATA[网络工程（国际合作班）]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Advertising Art and Design]]></msgid>
+		<msgstr><![CDATA[广告艺术设计]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Arabic]]></msgid>
+		<msgstr><![CDATA[阿拉伯语]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Urban Environmental Geotechnical Engineering]]></msgid>
+		<msgstr><![CDATA[城市环境岩土工程]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Advertising Art(II)]]></msgid>
+		<msgstr><![CDATA[广告艺术（二）]]></msgstr>
+	</message>	
+	
+	<!--60 研究生院-->
+	<message>
+		<msgid><![CDATA[School of Public Administration]]></msgid>
+		<msgstr><![CDATA[公共管理学院]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Department of Sociology]]></msgid>
+		<msgstr><![CDATA[社会学系]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Department of Chinese]]></msgid>
+		<msgstr><![CDATA[中文系]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Department of Journalism]]></msgid>
+		<msgstr><![CDATA[新闻系]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Department of History]]></msgid>
+		<msgstr><![CDATA[历史系]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[School of Chemistry]]></msgid>
+		<msgstr><![CDATA[化学院]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Institute of Geography and Ocean]]></msgid>
+		<msgstr><![CDATA[地理与海洋学院]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Department of Atmospheric Science]]></msgid>
+		<msgstr><![CDATA[大气科学系]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Department of Astronomy]]></msgid>
+		<msgstr><![CDATA[天文系]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Department of Earth Science]]></msgid>
+		<msgstr><![CDATA[地科系]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Department of Physics]]></msgid>
+		<msgstr><![CDATA[物理系]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Department of Materials]]></msgid>
+		<msgstr><![CDATA[材料系]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Department of Electronic Science and Engineering]]></msgid>
+		<msgstr><![CDATA[电子科学与工程系]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Information Management]]></msgid>
+		<msgstr><![CDATA[信息管理]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Login Email]]></msgid>
+		<msgstr><![CDATA[注册邮箱]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Password]]></msgid>
+		<msgstr><![CDATA[登录密码]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Remeber Me]]></msgid>
+		<msgstr><![CDATA[以后自动登录]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Retrieve Password]]></msgid>
+		<msgstr><![CDATA[取回密码]]></msgstr>
+	</message>	
+	<message>
+		<msgid><![CDATA[Send me verification letter again]]></msgid>
+		<msgstr><![CDATA[重发确认信]]></msgstr>
+	</message>	
+	<!--61 就业创业课程-->
+<!--	<message>
+		<msgid><![CDATA[Employment and Entrepreneurship Courses]]></msgid>
+		<msgstr><![CDATA[就业创业课程]]></msgstr>
+	</message>	
+前面已有-->
+	<!-- end add by Xiaofan -->
+</messages>

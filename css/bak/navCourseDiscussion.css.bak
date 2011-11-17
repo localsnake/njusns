@@ -1,0 +1,267 @@
+﻿@charset "utf-8";
+/*讨论区列表的Wrapper*/
+#discussionWrapper{
+	width:850px;
+	margin-left:30px;
+	overflow-y:auto;
+}
+#discussionPath {
+	font-weight:bold;	
+	font-size:16px;	
+	font-family:"微软雅黑", Tahoma, serif; 
+	display:inline-block;
+	width:98%;
+	height:33px;
+	line-height:33px;
+	vertical-align:center;
+}
+#discussionPath a {font-size:16px;}
+#discussionPath a:hover {color:#ffde46;}
+#areaListInfo{	/*讨论区列表*/
+	color:#454545;
+}
+#areaName{	/*讨论区名*/
+	color:#2c7db5;
+	font-size:14px;
+}
+.postButton:hover,.editButton:hover,.delButton:hover{cursor:pointer;}
+#newResponseButton,#editReleaseButton,#delReleaseButton,#delResponse{
+	position:relative;
+	float:right;
+	margin-bottom:10px;
+	width:26px;
+	height:26px;
+	display:inline-block;
+	cursor:pointer;
+}
+
+#newReleaseButton{ background: url(../images/addfriend_up.png) no-repeat; }
+#newReleaseButton:hover{background: url(../images/addfriend_down.png) no-repeat;}
+
+#newResponseButton{ background: url(../images/postreply_up.png) no-repeat;}
+#newResponseButton:hover{background: url(../images/postreply_down.png) no-repeat;}
+
+#editReleaseButton{ background: url(../images/postedit_up.png) no-repeat;;}
+#editReleaseButton:hover{background: url(../images/postedit_down.png) no-repeat;}
+
+#delResponse{ background: url(../images/delete.png) no-repeat; padding-right:20px;}
+#delResponse:hover{background: url(../images/delete_clickon.png) no-repeat;	padding-right:20px;}
+
+#delReleaseButton{ background: url(../images/delete.png) no-repeat;}
+#delReleaseButton:hover{background: url(../images/delete_clickon.png) no-repeat;}
+
+
+#delResponse{ margin-top: 50px;}		/*删除回复*/
+.discussionTable{
+	text-align: center;
+	table-layout: fixed;
+	border-collapse: separate;
+	font-family:"微软雅黑",Times, serif; 
+	table-layout: fixed;
+	width:800px;
+}
+.discussionTable th{
+	table-layout: fixed;
+	height:25px;
+	background-color:#81aac7;
+	border-bottom:8px solid #dddddd;
+	color:white;;
+}
+.discussionTable td{
+	table-layout: fixed;
+	height:45px;
+	border-bottom:2px solid #dddddd;
+	border-collapse: collapse;
+	word-break:keep-all;/* 不换行 */
+	white-space:nowrap;/* 强制在同一行内显示所有文本，直到文本结束或者遭遇 br 对象。不换行 */
+	overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow:ellipsis;/* IE 专有属性，当对象内文本溢出时显示省略标记() ；需与overflow:hidden;一起使用。*/
+}
+.discussionTable .textTitle{ 
+	width:48%; 
+	text-align:
+	left;}
+.discussionTable .textAuthor{ width:17%; }
+.discussionTable .textTime{ width:23%; }
+.discussionTable .textCount{ width:12%; }
+
+#areaList li{
+	margin-left: -40px;
+	height:35px;
+	border-bottom:1px solid #dddddd;
+	display:inline-block;
+}
+.areaListLabel{
+	font-size:14px;	
+	font-family:"微软雅黑",Times, serif; 
+	font-weight:normal;
+	color:#454545;
+}
+.areaListName {
+	font-size:14px;	
+	font-family:"微软雅黑",Times, serif; 
+	font-weight:bold;
+	color:#2c7db5;
+}
+/*删除讨论区按钮*/
+.delAreaIcon{
+	cursor:pointer;
+	float:right;
+	position:relative;
+	margin-right:20px;
+	width:26px;
+	height:26px;
+	display:inline-block;
+	vertical-align:top;
+	padding-top:-20px;
+}
+#responseDiv{
+	width:98%;
+}
+.responseDiv{
+	padding-top:20px;
+	width:100%;
+	display:inline-block;
+}
+/*回帖区主界面*/
+.msgInfo{
+	width:100%;
+	border: 2px solid #dde3ec;
+}
+/*回帖区帖子标题*/
+.responseTitle{
+	width:100%;
+	height:25px;
+	display:inline-block;
+	background-color:#81aac7;
+	border-bottom:8px solid #dddddd ;
+	font-size:16px;
+	font-family:"微软雅黑",Times, serif; 
+	color:#ffffff;
+}
+
+.responseUserInfo{
+	width:10%;
+	display:inline-block;
+	padding-left:20px;
+	padding-bottom: 20px;
+}
+.responseUserName{
+	padding-left: 10px;
+}
+/*帖子内容*/
+.responseContent{
+	width:80%;
+	display:inline-block;
+	float:right;
+	font-size:14px;
+	font-family:"微软雅黑",Times, serif; 
+	color:#454545;
+}
+/*发表于时间 楼层*/
+.responseTimeInfo{
+	text-align:right;
+	font-size:14px;
+	font-family:"微软雅黑",Times, serif; 
+	color:#909090;
+	padding-right: 20px;
+	margin-bottom: -1px;
+}
+.spanPadding {
+	padding-left:20px;
+}
+/*发布新帖子的帖子标题输入框*/
+.inputText{
+	width:98%;
+	height:35px;
+	margin-left:1%;
+	margin-top:10px;
+	margin-bottom:10px;
+	position:relative;
+}
+/*发布、回复、修改帖子的按钮区域 及按钮的CSS*/
+.buttonPane{
+	width:100%;
+	background-color:white;
+	display:inline-block;
+	margin-top:10px;
+	position:relative;
+}
+.postSubmit,.postCancel{
+	margin-left:20px;
+	width:66px;
+	height:42px;
+	display:inline-block;
+	position:relative;
+}
+.postSubmit{ margin-left:40%; background: url(../images/create_assignment_y.png); }
+.postCancel{ background: url(../images/create_assignment_n.png); }
+.postSubmit:hover,.postCancel:hover{ cursor:pointer;}
+.postSubmit:active,.postCancel:active{ top:1px;}
+#fancyboxCreateDiscussion{
+	display:inline-block;
+	float:right;
+	margin:0px;
+	padding-top:10px;
+}
+#newReleaseButton{
+	display:inline-block;
+	float:right;
+	margin:0px;
+	line-height:26px;
+	height:26px;
+	vertical-align:top;
+	font-weight:normal;
+}
+
+/* 回复框上方的水平线格式 */
+.seperatorHr {
+    background: url("../images/borderline.png") repeat-x scroll left bottom transparent;
+    height:1px;
+    margin-bottom:20px;
+}
+
+
+/* =========== 快速回复 和MSG模块中的快速回复以后一起移到 INDEX里面 ==========*/
+#quickReplyDiv{
+	font-family: Tahoma,"微软雅黑",Times,serif;
+	border: 2px solid #dde3ec;
+	height: 250px;
+	font-size: 15px;	
+	color:#454545;
+	background-color: #dde3ec;
+	border: 2px solid #b3c5d1;
+}
+#quickReplyContent{
+	font-family: Tahoma,"微软雅黑",Times,serif;
+	font-size: 14px;
+	color:#454545;
+	resize:none;
+	margin-left:30px;
+	height:160px;
+	width:92%;
+	overflow-x:hidden;
+	border:1px solid #2c7db5;
+}
+.msgReplyLabel{
+	padding-left:30px;
+	line-height: 40px;
+	font-size:15px;
+	font-family: "微软雅黑",Times,serif;
+}
+/*确认.返回按钮DIV */
+.buttonDiv{
+	display:inline-block;
+	margin-left:350px;
+	position:relative;
+}
+.bckBtn,.sendBtn{
+	cursor:pointer;
+	position:relative;
+	width:66px;
+	height:42px;
+	display:inline-block;
+}
+.bckBtn:active,.sendBtn:active{ top:1px; }
+.bckBtn{	background: url('../images/back.png') no-repeat;	}
+.sendBtn{	background: url('../images/send.png') no-repeat;	}

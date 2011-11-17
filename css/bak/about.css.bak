@@ -1,0 +1,158 @@
+﻿body {
+	background: url(../images/bg.jpg) no-repeat #cfd3d5;
+	background-position: top left;
+	font-family: 微软雅黑;
+	color: #454545;
+	font-size: 14px;
+}
+
+.titlePane {
+	background: url(../images/suggst_title.gif) no-repeat white;	
+	top: 0px;
+	width: 900px;
+	height: 130px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -20px;
+	-webkit-box-shadow: 0 0 15px gray;
+	/*圆角*/
+	border-radius: 0px 0px 15px 15px;
+	-webkit-border-radius: 0px 0px 15px 15px;
+	-moz-border-radius: 0px 0px 15px 15px;
+
+}
+
+.titlePane h1 {
+	position: relative;
+	font-size: 40px;
+	font-family: Tahoma;
+	font-weight: normal;
+	top: 60px;
+	left: 40px;
+	/*渐变效果*/
+	background: -webkit-gradient(linear, 0% 0%, 10% 0%, from(#235fa2), to(#388db4));
+	color: transparent;
+	-webkit-background-clip: text;
+}
+
+.contentPane {
+	background: url(../images/suggst_column.gif) no-repeat right top white;
+	/*width + 2padding = 900px*/
+	width: 820px;
+	padding: 40px;
+	
+	position: relative;
+	top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 0 0 15px gray;
+	/*圆角*/
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+.contentPane a {
+	text-decoration:none;
+	color:#454545;
+}
+
+.contentPane a:hover{
+	color:#2c7db5;
+}
+
+
+.contentPane p {	
+	text-indent: 2em;
+}
+
+.contentPane h2 {
+	color: #0d5689;
+	font-size: 22px;
+	font-weight: normal;
+}
+
+.contentPane h3 {
+	color:#2c7db5;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.contentPane li {
+	color: #2c7db5;
+	font-size: 18px;
+}
+
+#uploadSuggestion {
+	background-color:#dddddd;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 1px #c4b4b4;
+	width: 820px;
+	height: 220px;
+	
+}
+
+#userSuggestion {
+	margin: 15px;
+	width: 790px;
+	height: 140px;
+	padding: 0;
+	resize: none;
+}
+
+#logo {
+	position: absolute;
+	top: 330px;
+	left: 600px;
+}
+
+.button {
+	background-color:#2c7db5;
+	font-size:18px;
+	font-family: 微软雅黑;
+	border:solid 1px black;
+	color:white;
+	width:135px;
+	height:35px;
+	margin-left:17.5px;
+	margin-right:17.5px;
+}
+
+#buttonsPane {	
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 342px;
+}
+
+#suggestionWrapper {
+	position:relative;
+	margin-top:70px;
+}
+
+.suggestionDiv{
+	padding-left:15px;
+	padding-right:15px;
+	
+}
+
+.suggestionDetail {
+	margin-top:40px;
+}
+
+#acknowledgement {
+	color: #464646;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.button:active {
+	background-color: #0d5689;
+	position:relative;
+	top:1px;
+}

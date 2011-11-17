@@ -1,0 +1,32 @@
+index.php line:15  	$(function(){	//尚未登录 进入登录页面
+
+scripts/navCourseDiscussion.js line:567  	if (data == "0") {		//无权查看该页面或者尚未登录
+
+scripts/navCourseDiscussion.js line:568  		alert("尚未登录");
+
+scripts/navCourseNews.js line:122  	if (data == '0') {		//无权查看该页面或者尚未登录
+
+scripts/navCourseNews.js line:123  		alert('尚未登录');
+
+scripts/navCourseStudent.js line:59  	if (data == '0') {		//无权查看该页面或者尚未登录
+
+scripts/navCourseStudent.js line:60  		alert('尚未登录');
+
+scripts/navFriendHomepage.js line:38  		alert('尚未登录或者没有权限查看该页面');
+
+scripts/navFriendHomepage.js line:73  		alert('尚未登录或者没有权限查看该页面');
+
+scripts/navFriendInfo.js line:54  		alert('尚未登录');
+
+scripts/navMainAnnounce.js line:26  		alert('尚未登录');
+
+scripts/navMainAnnounce.js line:56  		alert('尚未登录');
+
+scripts/navMainFreshmilk.js line:53  		alert('尚未登录');
+
+scripts/navUserInfo.js line:27  		alert('尚未登录或者没有权限查看该页面');
+
+scripts/search.js line:30  	if (data == '0') {		// 尚未登录
+
+scripts/search.js line:31  		alert('您尚未登录，转至登录页面');
+

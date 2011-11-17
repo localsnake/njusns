@@ -1,0 +1,106 @@
+﻿@charset "utf-8";
+/* ================下面是用于登录框的CSS信息 ================ */
+#loginWrapper { 
+	position:relative;
+	font-size: 16px;
+	color:#FFF;
+	top:20%;
+	background: url("../images/login.png") no-repeat;
+	background-position: 0px 0px;
+	width:900px;
+	height:334px;
+}
+#loginPane {
+	position: absolute;
+	left: 95px;
+}
+/*下次自动登录*/
+#staylogin{
+	position:relative;
+	top:-70px;
+	left:-20px;
+}
+#staylogin label{
+	font-size: 14px;
+	position:relative;
+	top:-6px;
+}
+#keepLogin{
+	width:20px;
+	border:0px solid black;
+}
+/*取回密码/重发确认信件*/
+#emailFuncPane{
+	margin: 5px auto auto 250px;
+	position: relative;
+	top: -180px;
+	left: 355px;
+	text-align:center;
+}
+#emailFuncPane a{	color:#c7c7c7;	}
+#errorEcho {	visibility: hidden;	}  /*登录错误提示框*/
+/*登录界面的INPUT框和前面的提示信息CSS*/
+.loginInput{
+	font-size: 14px;
+	margin: 0 0 0 0;
+	padding: 0 2px; 
+	height: 23px;
+	border:1px;
+	width:14em;
+	-webkit-box-shadow:inset 0 0 10px rgb(137,137,137);
+	-moz-box-shadow:inset 0 0 10px rgb(137,137,137);
+	box-shadow:inset 0 0 10px rgb(137,137,137);
+}
+.loginInputType {	
+	margin: 8px 0 8px -50px;
+	float: left; 
+	text-align: right; 
+	width: 120px; 
+}
+/* 登录和注册按钮 */
+#loginBtn{
+	display:block;
+	position:relative;
+	left:32px;
+	top:10px;
+	z-index:999;
+	cursor:pointer;
+	color: #FFF;
+	font-size:18px;
+	border:0;
+	margin: 0 21px 0 0;	
+	background: url("../images/login.png") no-repeat;
+	background-position: 0px -399px;
+	width: 95px; 
+	height: 44px;
+}
+#regBtnPage {
+	display:block;
+	position:relative;
+	top:-34px;
+	left:157px;
+	z-index:999;
+	cursor:pointer;
+	font-size:18px;
+	border:0;
+	background: url("../images/login.png") no-repeat;
+	background-position: 0px -507px;
+	width: 95px; 
+	height: 44px;
+	color: #FFF;
+}
+/* 登录 注册 按钮 */
+#loginBtn:active{	top:11px;	}
+#loginBtn:hover{	
+	background: url("../images/login.png") no-repeat;
+	background-position: 0px -345px;
+	width: 95px; 
+	height: 44px;
+}
+#regBtnPage:hover{	
+	background: url("../images/login.png") no-repeat;
+	background-position: 0px -453px;
+	width: 95px; 
+	height: 44px;
+}
+#regBtnPage:active{	top:-33px;	}

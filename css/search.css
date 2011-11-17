@@ -1,0 +1,20 @@
+﻿#searchWrapper{
+	width:800px;
+	margin-left:20px;
+}
+#searchWrapper ul{
+	margin-left:-20px;
+}
+a.sendUserApply, a.sendUserApply:hover,a.hasBeenFriend,a.waitForAnswer,a.manageCourse {
+	background:url('../images/icons.png') no-repeat;
+	width:31px;
+	height:31px;
+	display: block;
+	margin-top:25px;
+	margin-right:5px;
+}
+a.sendUserApply{		background-position: -108px 0px;	}
+a.sendUserApply:hover{	background-position: -72px 0px;		}
+a.hasBeenFriend {		background-position: -396px 0px;	}
+a.waitForAnswer {		background-position: -144px 0px;	}
+a.manageCourse {		background-position: -432px 0px;	}

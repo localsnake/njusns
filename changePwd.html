@@ -1,0 +1,41 @@
+﻿<link rel="stylesheet" href="css/registration.css"/>
+<link rel="stylesheet" href="css/changePwd.css"/>
+<script src="scripts/changePwd.js" type="text/javascript"></script>
+
+<div id="tipInfo" class="errorNotesInfo" style="display:none;">密码修改成功</div>
+<div id='inputPane'>
+	<table>
+		<tr class='type'>
+			<td class="column_1"><label class="type">原始密码:</label></td>
+			<td class="column_2"><input id="changePwdOld" type="password" class="input"/>
+				<span class='err errorOld'>
+					<img src="./images/alert.png"/>
+					<label class="type">请输入原始密码！</label>
+				</span>
+			</td>
+		</tr>
+		<tr class='type'>
+			<td class="column_1"><label class="type">新密码:</label></td>
+			<td class="column_2"><input id="changePwdNew" type="password" class="input"/>
+				<span class="err errorNew">
+					<img src="./images/alert.png"/>
+					<label class="type">新密码必须在6-20位</label>
+				</span>
+			</td>
+		</tr>
+		<tr class='type'>
+			<td class="column_1"><label class="type">确认密码:</label></td>
+			<td class="column_2"><input id="changePwdConfirm" type="password" class="input"/>
+				<span class='err errorConfirm'>
+					<img src="./images/alert.png"/>
+					<label class="type">两次输入的密码不一致！</label>
+				</span>
+			</td>
+		</tr>
+	</table>
+</div>
+<br />
+<div id='buttonWrapper'>
+	<button id="changePwdOk"  	class="button" value="确认修改" disabled="disabled">确认修改</button>
+	<button id="changePwdReset"	class="button" value="清空">清空</button>
+</div>

@@ -1,0 +1,14 @@
+.fancyboxWrapper{
+	overflow:hidden;
+	width:600px;
+	height:500px;
+	background:#e2e2e4;
+	background-image:-moz-radial-gradient(center 22deg, circle closest-side, #e6e9eb, #b1bcc3);
+	background-image:-webkit-gradient(radial, 300 250, 50, 300 250, 230,from(#e6e9eb),to(#b1bcc3));
+}
+form{
+
+}
+.buttonWrapper{
+
+}

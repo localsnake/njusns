@@ -1,0 +1,23 @@
+#contentWrapper{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:400px;
+	margin-top:10px;
+}
+.fancyboxWrapper p{
+	font-size:14px;
+	font-weight:normal;
+	color:#041e31;
+	font-family:"Microsoft YaHei",
+	微软雅黑,
+	"Microsoft JhengHei",
+	华文细黑,
+	STHeiti,
+	MingLiu;
+	
+}
+.buttonWrapper{
+	margin-left:100px;
+}
+

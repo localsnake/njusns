@@ -1,0 +1,50 @@
+﻿<script src="scripts/navCourseNews.js" type="text/javascript"></script> 
+<link type="text/css" href="css/navCourseNews.css??" rel="stylesheet" />	
+
+<!-- 课程名 
+<h2></h2>-->
+
+<div id='courseNewsInfo' style='display:none'>
+	<!--<label id='courseNewsInfo'></label>-->
+	<label id='noticeContentLabel' for="noticeContent" domain="l10n">Course News</label>
+	<div>
+			<textarea id='noticeContent' name="notice_content" domain="l10n">Any News?</textarea><br />
+			<div id = 'noticeInfoPane'>
+				<div id='countPane'>
+					<label id='wordCount'>0</label>
+					<label id='totalCount'>/255</label>
+					&nbsp;&nbsp;<button domain="l10n" id='uploadNoticeBtn' class="button" value="发布课程通知">Update</button>
+				</div>
+			</div>
+	</div>
+</div>
+
+<div id="navCourseNewsList">
+	<ul>
+	<!--
+		<li id='courseNews'+[新鲜事id] class='courseNewsNews'>
+			<img src=[图片路径]></img>
+			<label id=[发布人id] class='name'>[name]</label>
+			<label class=''>[]</label>
+			<label>于</label>
+			<label class='time'>[发布时间]</label>
+			<label>[actionPre]</label>
+			<label class='content'>[发布内容]</label>
+			<label>[actionSuf]</label>
+			<a name=[新鲜事id] class="" title="删除"  ><span class="ui-icon ui-icon-close"></span></a>
+		</li>
+		
+		<li class='courseNewsNews'> // 没有id
+			<label class='content'>[发布内容]</label>
+			<label class='time'>([发布时间])</label>
+		</li>
+	-->
+	</ul>
+	<div class='seperatorHr'></div>
+	<!--<img id='courseNewsPagePrev' src='images/prev.png' title='上一页' alt='上一页'/>
+	<label id='page'></label>
+	<img id='courseNewsPageNext' src='images/next.png' title='下一页' alt='下一页'/>-->
+	<a id='courseNewsPagePrev' class = 'pagePrev' ><前页</a>
+	<label id='page' class = 'pageNo'></label>
+	<a id='courseNewsPageNext' class = 'pageNext' >后页></a>
+</div>

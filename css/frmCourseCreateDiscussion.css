@@ -1,0 +1,15 @@
+.designedTable{
+	position:absolute;
+	top:30px;
+	left:25px;
+}
+.fancyboxWrapper .buttonWrapper{
+	position:absolute;
+	top:83px;
+	left:100px;
+}
+.errorWrapper{
+	position:absolute;
+	top:64px;
+	left:80px;
+}

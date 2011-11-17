@@ -1,0 +1,79 @@
+﻿@charset "utf-8";
+/*一条通知的框架*/
+.mainAnnounce {
+	position: relative;
+	display: block;
+	font-family: Tahoma,"微软雅黑",Times,serif;
+	border: 2px solid #dde3ec;
+	height: 85px;
+	font-size: 16px;
+	color:#454545;
+	margin-left: -20px;
+}
+/*多选按钮*/
+.checkboxDiv {
+	position: absolute;
+	top:35px;
+	left:5px;
+	float:left;
+	width: 10px;
+	position:relative;
+}
+/* ====接收或者拒绝申请==== */
+.opDiv {
+	float:right;
+	width:80px;
+	position:absolute;
+	top:25px;
+	right:10px;
+	display:inline-block;
+}
+.approveDiv{
+	position:relative;
+	right: 10px;
+}
+.approveDiv,.ignoreDiv {
+	cursor:pointer;
+	width:26px;
+	height:26px;
+	display:inline-block;
+}
+
+.mainAnnounceChoose{
+	font-family:"微软雅黑",Times,serif;
+	font-size:15px;
+	color:#2c7db5;
+	padding-left:560px;
+	display:inline-block;
+	height:42px;	
+}
+.mainAnnounceChooseAll,.mainAnnounceChooseNone,.mainAnnounceChooseOpp{
+	padding-left:10px;
+	line-height:42px;
+	vertical-align:top;
+}
+.mainAnnounceChooseOpp {padding-right:10px}
+/*接收/拒绝选中请求*/
+.mainAnnounceChooseOk{
+	cursor:pointer;
+	/*background: url(../images/application_apply.png) no-repeat;*/
+	width:66px;
+	height:42px;
+	display:inline-block;
+	position:relative;
+}
+.mainAnnounceChooseDeny{
+	cursor:pointer;
+	/*background: url(../images/application_cancel.png) no-repeat;*/
+	margin-left:2px;
+	width:66px;
+	height:42px;
+	display:inline-block;
+	position:relative;
+}
+/*申请通知类型标签 如 ...申请 */
+.announceTitle{
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#2c7db5;
+}

@@ -1,0 +1,112 @@
+﻿<link rel="stylesheet" href="css/navCourseDiscussion.css?v=1.1"/>
+<script src="scripts/navCourseDiscussion.js" type="text/javascript"></script>
+
+<div id = "discussionWrapper">
+	<div  id = "discussionPath">
+		<a id = "areaName"></a> <span>▶<span> <a id = "releaseTitle"></a>
+		<div id='newReleaseButton' onclick="javascript:show_post_area();" class="fancyboxCreate" style='display:none;'>
+			<a class="word" style="font-size:14px;" domain="l10n">New Topic</a>
+		</div>
+		<a id='newReleaseButton' onclick="javascript:show_post_area();" title='发布新帖子' class = "postButton"></a>
+		<a id='newResponseButton' userid="0" username="" 
+			title='回复本贴' class = "postButton">
+		</a>
+		<a id='editReleaseButton' onclick="javascript:edit_release();" title='编辑本贴' class = "editButton"></a>
+		<a id='delReleaseButton' onclick="javascript:del_release();" title='删除本贴' class = "delButton"></a>
+	</div>
+	
+	<div class='seperatorHr'></div>
+	
+	<!-- 帖子容器 -->
+	<div id = "releaseDiv" style = "display:none;">
+
+		<table id = "titleList" class='discussionTable'>						
+		</table>
+
+		<div class='seperatorHr'></div>
+		<div style='width:800px;'>
+			<a id='releasePagePrev' class = 'pagePrev' ><前页</a>
+			<label id='page' class = 'pageNo'></label>
+			<a id='releasePageNext' class = 'pageNext' >后页></a>
+		</div>
+		<br/> <br/> <br/>
+	</div>
+
+	<!-- 回复列表 -->
+	<div id = "responseDiv" style = "display:none;">
+		<div id = "responseList">
+		
+		</div>
+		<div id="quickReplyDiv"> 
+			<div>
+				<label class="msgReplyLabel" for="quickReplyContent" domain="l10n">快捷回复</label> >
+				<a id="fullEdition" onclick="javascript:show_detail_response_area();">转至完整版</a>
+			</div>
+			<div>
+					<textarea id='quickReplyContent'></textarea><br />
+					<div class="buttonDiv">
+						<button id="replyQuickResponseBtn" class="sendBtn button"
+								onclick="javascript:submit_new_quick_response();">回复</button>
+						<button class = 'bckBtn button' type = "button" 
+								onclick = "init_discussion_area_list();" value = "返回">返回</button>
+					</div>
+			</div>
+		</div>
+		<div style='width:100%;'>
+			<a id='responsePagePrev' class = 'pagePrev' ><前页</a>
+			<label id='responsePage' class = 'pageNo'></label>
+			<a id='responsePageNext' class = 'pageNext' >后页></a>
+		</div>
+	</div>
+
+	<!-- 发布新帖区域 -->
+	<div id="releaseArea" style="display:none; width:800px;">
+		<div class='responseTitle'><span class='spanPadding'>发布新帖</span> </div>
+		<table style="width:100%;">
+			<tr><td><input class = "inputText" type="text" name="subject" id="newReleaseTitle" value="" /></td></tr>
+			<tr><td id="releaseTd">
+					<!-- <textarea class = "ckeditor2" name="msgcontent" id="newReleaseContent" ></textarea> -->
+			</td></tr>
+		</table>
+		<div class='buttonPane'>
+			<button class = 'button postSubmit' id = 'submit_release' type = "button" 
+					onclick ="submit_new_release();" value = "发表">发表</button>
+			<button class = 'button postCancel' type = "button" 
+					onclick = "cancel_new_release();" value = "返回">返回</button>
+		</div>
+	</div>
+
+	<!--  修改帖子区域 -->
+	<div id="editReleaseArea" style="display:none">
+		<div class='responseTitle' style='width:100%;'> <span class='spanPadding'>修改帖子</span> </div>
+		<table width = "100%">
+			<tr><td><input class = "inputText" type="text" name="subject" id="editReleaseTitle" value="" /></td></tr>
+			<tr><td id="editReleaseTd">
+					<!-- <textarea class = "ckeditor2" name="msgcontent" id="editReleaseContent" ></textarea> -->
+			</td></tr>
+		</table>
+		<div class='buttonPane'>
+			<button class = 'button postSubmit' id = 'submit_edit_release' type = "button" 
+					onclick ="submit_edit_release();" value ="发表">发表</button>
+			<button class = 'button postCancel' type = "button" 
+					onclick = "cancel_new_release();" value = "返回">返回</button>
+		</div>
+	</div>
+
+	<!-- 回复区域 -->
+	<div id="responseArea" style="display:none width:800px">
+		<div class='responseTitle' style='width:100%;'> 
+			<span class='spanPadding'>回复本帖</span> >
+			<a id="quickEdition" onclick ="show_response_area();">转至快捷版</a>
+		</div>
+		<table width = "100%">
+			<tr><td id = "responseTd"></td></tr>
+		</table>
+		<div class='buttonPane'>
+			<button class = 'button postSubmit' id = 'submit_response' type = "button" 
+					onclick ="submit_new_response();" value = "发表">发表</button>
+			<button class = 'button postCancel' type = "button" 
+					onclick = "cancel_new_response();" value = "返回">返回</button>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,112 @@
+@charset "utf-8";
+.fancyboxWrapper{
+	overflow:hidden;
+	width:430px;
+	height:270px;
+	background:#e2e2e4;
+	background-image:-moz-radial-gradient(center 22deg, circle closest-corner, #e6e9eb, #b1bcc3);
+	background-image:-webkit-gradient(radial, 215 150, 100, 215 150, 215,from(#e6e9eb),to(#b1bcc3));
+}
+input{
+	border:none;
+	width:230px;
+}
+/*file uploader style tricks*/
+/*#fakefile{
+	z-index:1;
+}
+#fakefile input{
+	background:url("../images/intro_okbutton.png") no-repeat;
+}
+#chooseFile{
+	border:none;
+	z-index:2;
+	opacity:0;
+	background:red;	
+}
+	*/
+.acceptBtn{
+	cursor:pointer;
+	position:relative;
+	width:66px;
+	height:42px;
+	display:inline-block;
+	background: url('../images/create_assignment_y.png') no-repeat;
+}
+.cancelBtn{
+	cursor:pointer;
+	position:relative;
+	width:66px;
+	height:42px;
+	display:inline-block;
+	background: url('../images/create_assignment_n.png') no-repeat;
+}
+.acceptBtn:active,.cancelBtn:active{	top:1px;}
+.buttonWrapper{
+	display:inline-block;
+}
+	
+form{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:370px;
+	/*left:35px;*/
+
+}
+.designedTable tr td{
+	background:transparent;
+	border:none;
+	padding-bottom:15px;
+	font-size:14px;
+	font-weight:normal;
+	color:#041e31;
+	font-family:"Microsoft YaHei",
+	Î¢ÈíÑÅºÚ,
+	"Microsoft JhengHei",
+	»ªÎÄÏ¸ºÚ,
+	STHeiti,
+	MingLiu;
+}
+.designedTable tr th{
+	background:transparent;
+	border:none;
+	padding-bottom:15px;
+	font-size:14px;
+	font-weight:normal;
+	color:#041e31;
+	font-family:"Microsoft YaHei",
+	Î¢ÈíÑÅºÚ,
+	"Microsoft JhengHei",
+	»ªÎÄÏ¸ºÚ,
+	STHeiti,
+	MingLiu;
+}
+.designedTable tr td input{
+	/*width:230px;
+	background:white;
+	*/
+}
+.designedTable tr td select{
+	width:230px;
+}
+.errorWrapper{
+	display:none;
+	width:291px;
+	height:16px;
+	background:url("../images/errorbg.gif") no-repeat;
+	padding-left:15px;
+}
+#errorEcho{
+	margin:0px;
+	color:#965f22;
+}
+form[name="photo"]{
+	position:relative;
+	top:50px;
+}
+#fancyboxWrapper input[id="submitBtn"][type="button"]{
+	background: url('../images/create_assignment_y.png') no-repeat;
+	width:66px;
+	height:42px;
+}
